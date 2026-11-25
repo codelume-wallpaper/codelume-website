@@ -26,8 +26,15 @@ dist-ssr
 # other
 .env
 .env.local
+.env.production
 .env.*.local
 Claude*
 
 # Cloudflare local state
 .wrangler/
+
+# Website videos are served from the public R2 bucket.
+*.mp4
+*.mov
+*.webm
+*.m4v
