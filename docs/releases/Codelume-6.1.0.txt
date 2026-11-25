@@ -1,3 +1,23 @@
+Codelume 6.1.0
+
+System wallpapers
+• System wallpapers now have their own settings. Choose a screen saver mode and how long your Mac should be idle before it starts. Settings are saved locally and take effect the next time you apply a system wallpaper.
+• Menu bar controls are now available in system wallpaper mode.
+• Removed the preparation dialog when switching system wallpapers.
+• Added the automation permission description for system wallpapers.
+
+Profiles and uploads
+• Adjusted the layout and proportions of the profile cover, avatar, text, and statistics.
+• Improved access to works, followed accounts, and moderation.
+• Wallpaper uploads open in a dialog again, with a revised toolbar.
+
+Other improvements
+• Backend read requests now use the service address for the corresponding region.
+• If the home page carousel is empty, it retries after one minute.
+
+--- translations ---
+
+[zh]
 码镜 6.1.0
 
 系统壁纸
@@ -14,3 +34,129 @@
 其他优化
 • 后端读取请求使用对应地区的服务地址。
 • 首页轮播内容为空时，一分钟后自动重试。
+
+[zh-TW]
+碼鏡 6.1.0
+
+系統桌布
+• 新增獨立的系統桌布設定，可選擇螢幕保護程式模式與啟動前的閒置時間。設定儲存在本機，下次套用系統桌布時生效。
+• 系統桌布模式支援選單列功能。
+• 切換系統桌布時不再顯示準備視窗。
+• 補上系統桌布的自動化權限說明。
+
+個人主頁與上傳
+• 調整個人主頁封面、頭像、文字與統計資料的配置和比例。
+• 改善作品、追蹤與審核功能的入口。
+• 上傳桌布時恢復使用對話框，並調整工具列。
+
+其他改進
+• 後端讀取請求改用對應地區的服務位址。
+• 首頁輪播沒有內容時，會在一分鐘後自動重試。
+
+[ja]
+Codelume 6.1.0
+
+システム壁紙
+• システム壁紙専用の設定を追加しました。スクリーンセーバのモードと起動までの待ち時間を選べます。設定はこのMacに保存され、次にシステム壁紙を適用したときに反映されます。
+• システム壁紙モードでもメニューバーの機能を使えるようになりました。
+• システム壁紙を切り替える際の準備ダイアログを削除しました。
+• システム壁紙のオートメーション権限に関する説明を追加しました。
+
+プロフィールとアップロード
+• プロフィールのカバー画像、アイコン、テキスト、統計情報の配置とサイズを調整しました。
+• 作品、フォロー、審査の各画面を開きやすくしました。
+• 壁紙のアップロード画面をダイアログに戻し、ツールバーを調整しました。
+
+その他
+• バックエンドからのデータ取得には、地域に対応するサービスアドレスを使用します。
+• ホームのカルーセルが空の場合は、1分後に自動で再試行します。
+
+[ko]
+Codelume 6.1.0
+
+시스템 배경화면
+• 시스템 배경화면 전용 설정을 추가했습니다. 화면 보호기 모드와 실행 전 대기 시간을 선택할 수 있습니다. 설정은 Mac에 저장되며 다음에 시스템 배경화면을 적용할 때 반영됩니다.
+• 시스템 배경화면 모드에서도 메뉴 막대 기능을 사용할 수 있습니다.
+• 시스템 배경화면 전환 시 표시되던 준비 창을 제거했습니다.
+• 시스템 배경화면의 자동화 권한에 대한 설명을 추가했습니다.
+
+프로필 및 업로드
+• 프로필의 커버 이미지, 아바타, 텍스트 및 통계의 배치와 비율을 조정했습니다.
+• 작품, 팔로우 및 검토 화면으로 이동하기가 더 쉬워졌습니다.
+• 배경화면 업로드 창을 다시 대화상자로 표시하며 도구 막대 구성을 조정했습니다.
+
+기타 개선 사항
+• 백엔드 데이터를 읽을 때 해당 지역의 서비스 주소를 사용합니다.
+• 홈 화면의 캐러셀이 비어 있으면 1분 후 자동으로 다시 시도합니다.
+
+[fr]
+Codelume 6.1.0
+
+Fonds d’écran système
+• Les fonds d’écran système disposent de leurs propres réglages. Choisissez le mode de l’économiseur d’écran et le délai d’inactivité avant son démarrage. Ces réglages sont enregistrés sur le Mac et prennent effet la prochaine fois que vous appliquez un fond d’écran système.
+• Les commandes de la barre des menus sont désormais disponibles en mode fond d’écran système.
+• Suppression de la fenêtre de préparation lors du changement de fond d’écran système.
+• Ajout d’une description de l’autorisation d’automatisation pour les fonds d’écran système.
+
+Profils et envois
+• Ajustement de la disposition et des proportions de la couverture, de l’avatar, du texte et des statistiques du profil.
+• Accès amélioré aux créations, aux comptes suivis et à la modération.
+• L’envoi de fonds d’écran s’ouvre à nouveau dans une boîte de dialogue avec une barre d’outils remaniée.
+
+Autres améliorations
+• Les requêtes de lecture utilisent désormais l’adresse du service de la région concernée.
+• Si le carrousel d’accueil est vide, une nouvelle tentative a lieu après une minute.
+
+[de]
+Codelume 6.1.0
+
+Systemhintergründe
+• Systemhintergründe haben jetzt eigene Einstellungen. Dort lassen sich der Bildschirmschonermodus und die Wartezeit bis zum Start festlegen. Die Einstellungen werden auf dem Mac gespeichert und beim nächsten Anwenden eines Systemhintergrunds wirksam.
+• Die Funktionen der Menüleiste stehen jetzt auch im Systemhintergrundmodus zur Verfügung.
+• Beim Wechsel des Systemhintergrunds entfällt der Vorbereitungsdialog.
+• Eine Beschreibung der Automatisierungsberechtigung für Systemhintergründe wurde ergänzt.
+
+Profile und Uploads
+• Anordnung und Größenverhältnisse von Titelbild, Avatar, Text und Statistiken auf der Profilseite wurden angepasst.
+• Werke, gefolgte Konten und Moderation sind jetzt leichter erreichbar.
+• Der Wallpaper-Upload öffnet sich wieder in einem Dialog mit überarbeiteter Werkzeugleiste.
+
+Weitere Verbesserungen
+• Leseanfragen an das Backend verwenden die Dienstadresse der jeweiligen Region.
+• Ist das Karussell auf der Startseite leer, versucht die App nach einer Minute erneut, Inhalte zu laden.
+
+[es]
+Codelume 6.1.0
+
+Fondos de pantalla del sistema
+• Los fondos del sistema tienen sus propios ajustes. Puedes elegir el modo del salvapantallas y el tiempo de inactividad antes de que se inicie. Los ajustes se guardan en el Mac y se aplican la próxima vez que establezcas un fondo del sistema.
+• Los controles de la barra de menús ya están disponibles en el modo de fondo del sistema.
+• Se eliminó el cuadro de preparación al cambiar de fondo del sistema.
+• Se añadió una descripción del permiso de automatización para los fondos del sistema.
+
+Perfiles y subidas
+• Se ajustaron la distribución y las proporciones de la portada, el avatar, el texto y las estadísticas del perfil.
+• Se mejoró el acceso a las obras, las cuentas seguidas y la moderación.
+• La subida de fondos vuelve a abrirse en un cuadro de diálogo con una barra de herramientas revisada.
+
+Otras mejoras
+• Las solicitudes de lectura al servidor usan la dirección del servicio de la región correspondiente.
+• Si el carrusel de inicio está vacío, la aplicación vuelve a intentarlo al cabo de un minuto.
+
+[pt-BR]
+Codelume 6.1.0
+
+Papéis de parede do sistema
+• Os papéis de parede do sistema agora têm ajustes próprios. Escolha o modo do protetor de tela e o tempo de inatividade antes que ele seja iniciado. Os ajustes são salvos no Mac e entram em vigor na próxima vez que você aplicar um papel de parede do sistema.
+• Os controles da barra de menus agora estão disponíveis no modo de papel de parede do sistema.
+• A janela de preparação foi removida da troca de papéis de parede do sistema.
+• Foi adicionada uma descrição da permissão de automação para os papéis de parede do sistema.
+
+Perfis e envios
+• Ajustamos a disposição e as proporções da capa, do avatar, dos textos e das estatísticas do perfil.
+• Melhoramos o acesso às criações, às contas seguidas e à moderação.
+• O envio de papéis de parede voltou a abrir em uma caixa de diálogo, com a barra de ferramentas reorganizada.
+
+Outras melhorias
+• As solicitações de leitura ao servidor usam o endereço do serviço da região correspondente.
+• Se o carrossel da página inicial estiver vazio, o aplicativo tentará novamente após um minuto.

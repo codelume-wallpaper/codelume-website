@@ -1,4 +1,54 @@
+Codelume 6.0.1
+
+• Fixed an issue that caused source links to be lost when importing or converting wallpaper bundles in different formats.
+• Improved wallpaper bundle compatibility.
+
+--- translations ---
+
+[zh]
 码镜 6.0.1
 
 • 修复不同格式的壁纸资源包在导入和转换时，来源链接未正确保留的问题。
 • 改进壁纸资源包兼容性。
+
+[zh-TW]
+碼鏡 6.0.1
+
+• 修正匯入或轉換不同格式的桌布資源包時，來源連結未正確保留的問題。
+• 改善桌布資源包的相容性。
+
+[ja]
+Codelume 6.0.1
+
+• 異なる形式の壁紙パッケージを読み込んだり変換したりすると、配布元へのリンクが失われる問題を修正しました。
+• 壁紙パッケージの互換性を改善しました。
+
+[ko]
+Codelume 6.0.1
+
+• 여러 형식의 배경화면 패키지를 가져오거나 변환할 때 출처 링크가 누락되는 문제를 수정했습니다.
+• 배경화면 패키지 호환성을 개선했습니다.
+
+[fr]
+Codelume 6.0.1
+
+• Correction de la perte du lien vers la source lors de l’importation ou de la conversion de packs de fonds d’écran de différents formats.
+• Amélioration de la compatibilité des packs de fonds d’écran.
+
+[de]
+Codelume 6.0.1
+
+• Beim Importieren oder Konvertieren von Wallpaper-Paketen verschiedener Formate bleiben die Links zur Quelle jetzt erhalten.
+• Die Kompatibilität mit Wallpaper-Paketen wurde verbessert.
+
+[es]
+Codelume 6.0.1
+
+• Se corrigió un problema por el que se perdían los enlaces a las fuentes al importar o convertir paquetes de fondos de pantalla de distintos formatos.
+• Se mejoró la compatibilidad con los paquetes de fondos de pantalla.
+
+[pt-BR]
+Codelume 6.0.1
+
+• Corrigida a perda dos links de origem ao importar ou converter pacotes de papéis de parede de formatos diferentes.
+• Melhorada a compatibilidade com pacotes de papéis de parede.

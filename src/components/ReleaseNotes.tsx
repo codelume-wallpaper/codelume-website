@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { RELEASES_API } from '@/lib/releases'
+import { selectReleaseNotes } from '@/lib/releaseNotes'
+import { fallbackLng } from '@/i18n/config'
 
 export function ReleaseNotes({ version }: { version: string }) {
-  const { t } = useTranslation('download')
+  const { t, i18n } = useTranslation('download')
   const [notes, setNotes] = useState<string | null>(null)
   const [failed, setFailed] = useState(false)
   const [attempt, setAttempt] = useState(0)
@@ -32,5 +34,6 @@ export function ReleaseNotes({ version }: { version: string }) {
     </p>
   )
   if (notes === null) return <p role="status" className="text-sm text-muted-foreground">{t('loadingNotes')}</p>
-  return <p className="whitespace-pre-wrap break-words text-sm leading-7 text-foreground/80">{notes.trim() || t('noNotes')}</p>
+  const localized = selectReleaseNotes(notes, i18n.resolvedLanguage ?? fallbackLng)
+  return <p className="whitespace-pre-wrap break-words text-sm leading-7 text-foreground/80">{localized || t('noNotes')}</p>
 }

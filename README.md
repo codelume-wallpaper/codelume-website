@@ -66,6 +66,8 @@
 
 安装包采用 `Codelume-x.y.z.dmg` 命名，对应更新说明为 UTF-8 纯文本 `Codelume-x.y.z.txt`，放在同一目录，最大 64 KiB。预览包、测试版、空文件和子目录不会进入下载列表。更新说明缺失时仍可下载，页面提示暂无说明；已有说明源文件见 [releases](docs/releases/)。
 
+每个版本只维护一个 TXT。先写完整的英文默认说明，再单独写一行 `--- translations ---`。下方用独占一行的语言标签开始每段翻译，支持 `[zh]`、`[zh-TW]`、`[ja]`、`[ko]`、`[fr]`、`[de]`、`[es]` 和 `[pt-BR]`。正文可包含标题、项目符号和空行。最新版本和历史版本都随页面语言切换。缺少翻译、译文为空或翻译区格式错误时显示开头的英文说明。旧版单语言 TXT 仍按原文显示。
+
 `public/_worker.js` 使用 Pages 的 `RELEASES` 绑定读取版本目录和说明，绑定配置见 `wrangler.jsonc`。静态页面不经过动态处理，版本信息缓存 60 秒。后续 App 发版只需上传匹配的 TXT 和已公证的 DMG，无需因安装包版本变化重建网站。
 
 本地验证使用 `npm test`、`npx tsc --noEmit -p tsconfig.app.json` 和 `npm run build`。日常开发留在 `dev`；生产自动部署来源为 `main`，网站沿用生产配置。
