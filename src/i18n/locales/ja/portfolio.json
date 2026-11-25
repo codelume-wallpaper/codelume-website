@@ -1,0 +1,141 @@
+{
+  "badge": "Codelume",
+  "latestProject": "最新版の画面と異なる場合があります",
+  "featured": {
+    "title": "Codelume",
+    "details": {
+      "industry": {
+        "label": "画面管理",
+        "value": "マルチディスプレイ再生/個別管理/一時停止/ミュート"
+      },
+      "style": {
+        "label": "ローカル壁紙",
+        "value": "オフライン書き出し/インポート/再編集"
+      },
+      "tone": {
+        "label": "壁紙センター",
+        "value": "カテゴリ検索/認証付きダウンロード/素材投稿"
+      },
+      "format": {
+        "label": "スクリーンセーバー",
+        "value": "カスタムスクリーンセーバー/ロック画面再生"
+      },
+      "settings": {
+        "label": "環境設定",
+        "value": "言語/テーマ/起動時自動開始/再生コントロール"
+      }
+    }
+  },
+  "systemWallpapers": {
+    "title": "種類",
+    "subtitle": "静止画像から操作できるウェブページまで、Codelumeは多彩な壁紙でデスクトップの楽しみ方を広げます。お使いのMacの性能に合った壁紙の種類を選びましょう。",
+    "still": {
+      "title": "静止画の壁紙",
+      "performance": "最高のパフォーマンス、追加のリソース消費なし",
+      "description": "Codelumeの静止画壁紙をそのままmacOSのデスクトップ壁紙に設定できます。"
+    },
+    "video": {
+      "title": "動画壁紙",
+      "performance": "デコーダー負荷を抑えて、快適な体験を",
+      "description": "デスクトップで動画をループ再生したり、スクリーンセーバーと連動する壁紙に変換したりできます。",
+      "requirements": "スクリーンセーバー連動には公式サイト版と macOS 26 以降が必要です。",
+      "example": "猫伴画姫"
+    },
+    "scene": {
+      "title": "シーン壁紙",
+      "performance": "macOS標準フレームワークで高い性能を発揮し、リソース使用量は多め",
+      "description": "シーン壁紙は SpriteKit を使って構築され、複数のレイヤー、シェーダー、アニメーションに対応します。シーン内の要素はマウスの移動やクリックに反応できます。"
+    },
+    "depth": {
+      "title": "奥行きのある壁紙",
+      "status": "開発・最適化中",
+      "description": "前景と背景のレイヤーで奥行きを表現します。"
+    },
+    "web": {
+      "title": "ウェブ壁紙",
+      "performance": "自由度が最も高く、リソース使用量は多め",
+      "description": "ウェブのコンテンツやアニメーション、リアルタイム情報をデスクトップに表示します。"
+    }
+  },
+  "wallpaperModes": {
+    "title": "モード",
+    "subtitle": "Codelumeは2つの壁紙モードに対応しています。それぞれの違いを以下で比較できます。",
+    "native": {
+      "title": "システム壁紙",
+      "points": [
+        "macOSがデスクトップの壁紙を管理します。",
+        "静止画の壁紙と動くスクリーンセーバーとの連動に対応します。",
+        "デスクトップに戻ると動きが徐々に止まり、静止画になります。"
+      ],
+      "availability": "公式サイト版のみ対応（macOS 26以降）。App Store版ではサンドボックスの制限により利用できません。",
+      "demo": "動作イメージ"
+    },
+    "codelume": {
+      "title": "Codelumeの壁紙",
+      "points": [
+        "Codelumeがデスクトップの壁紙を管理します。",
+        "静止画、動画、シーン、奥行き、ウェブ壁紙に対応します。",
+        "スクリーンセーバーと連動し、デスクトップに戻っても再生が続きます。"
+      ]
+    }
+  },
+  "community": {
+    "title": "オープンソース",
+    "projects": "Codelumeのプロジェクト",
+    "closedSource": "ソース未公開",
+    "openSourceDescription": "Codelumeの各プロジェクトのソースコードを順次公開します。コードの確認やご意見をお待ちしています。",
+    "sourceStatus": "公開状況",
+    "sourceAddress": "リポジトリ",
+    "sourceUnavailable": "未公開",
+    "descriptions": {
+      "Codelume": "macOS向けの壁紙アプリ。",
+      "CodelumeBundle": "壁紙バンドルを読み込み、編集、検証するSwiftライブラリ。",
+      "CodelumeStudio": "Codelumeの壁紙を制作・編集するツール。",
+      "CodelumeSaver": "動画と壁紙バンドルを再生できるmacOSスクリーンセーバー。",
+      "CodelumeEngine": "壁紙の描画と再生を担う予定のエンジンプロジェクト。",
+      "CodelumeShared": "Codelumeのプロジェクトで共用するSwiftコンポーネント。",
+      "codelume-backend": "アカウント、壁紙ライブラリ、ファイルを扱うサービス。",
+      "codelume-skills": "開発エージェント向けのCodelumeプロジェクト用スキル。",
+      "codelume-website": "Codelumeの公式サイト。"
+    }
+  },
+  "pricing": {
+    "title": "エディション",
+    "subtitle": "Proの購入は、壁紙の保存、バックエンドサービス、Codelumeの継続開発を支えます。",
+    "standard": {
+      "title": "通常版",
+      "price": "無料で、透かしや広告はありません。普段の壁紙の変更には通常版で十分です。"
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "買い切りでCodelumeのすべての機能を使えます。価格は購入画面でご確認ください。"
+    },
+    "groups": {
+      "modes": "壁紙モード",
+      "types": "壁紙の種類",
+      "wallpaperFeatures": "壁紙の機能"
+    },
+    "supported": "対応",
+    "partiallySupported": "一部対応",
+    "unsupported": "非対応",
+    "features": {
+      "displays": "マルチディスプレイ壁紙",
+      "lockScreen": "ロック画面の壁紙",
+      "playlists": "プレイリスト",
+      "library": "ローカル壁紙ライブラリ",
+      "download": "壁紙のダウンロード",
+      "import": "壁紙の読み込み",
+      "upload": "壁紙のアップロード",
+      "export": "壁紙の書き出し",
+      "menuBar": "メニューバー管理",
+      "metrics": "システム指標",
+      "frameRate": "動画以外の動く壁紙のフレームレート制限",
+      "storage": "ストレージ管理",
+      "permissions": "権限管理"
+    },
+    "mainDisplayOnly": "メインディスプレイのみ",
+    "libraryLimit": "最大20枚",
+    "basicTypesOnly": "静止画と動画のみ",
+    "websiteOnly": "公式サイト版のみ"
+  }
+}

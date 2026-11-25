@@ -1,0 +1,15 @@
+{
+  "latest": "Neueste Version",
+  "downloadVersion": "v{{version}} herunterladen",
+  "downloadDmg": "DMG herunterladen",
+  "universal": "Für Macs mit Apple Chip und Intel",
+  "releaseNotes": "Versionshinweise",
+  "history": "Frühere Versionen",
+  "loading": "Neueste Version wird gesucht…",
+  "loadingNotes": "Versionshinweise werden geladen…",
+  "loadError": "Versionen konnten nicht geladen werden. Bitte erneut versuchen.",
+  "notesError": "Versionshinweise konnten nicht geladen werden.",
+  "retry": "Erneut versuchen",
+  "empty": "Noch keine Versionen verfügbar.",
+  "noNotes": "Keine Hinweise zu dieser Version."
+}

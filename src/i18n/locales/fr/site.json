@@ -1,0 +1,268 @@
+{
+  "common": {
+    "siteTitle": "Codelume — Application de fonds d’écran pour Mac",
+    "language": "Langue",
+    "followSystem": "Suivre le système",
+    "refundPolicy": "Politique de remboursement",
+    "close": "Fermer"
+  },
+  "navigation": {
+    "brand": "Codelume",
+    "work": "Codelume",
+    "about": "Fonds d’écran et collaboration",
+    "workshop": "Codelume Studio",
+    "help": "Aide",
+    "appPreview": "Aperçu"
+  },
+  "hero": {
+    "title": "Un nouveau fond d’écran pour votre Mac",
+    "subtitle": "Utilisez les fonds d’écran natifs du Mac ou découvrez les formats supplémentaires de Codelume.",
+    "cta": {
+      "download": "Télécharger Codelume pour Mac",
+      "appStore": "Version App Store",
+      "website": "Version du site officiel",
+      "comingSoon": "Bientôt disponible",
+      "appStoreDescription": "Installez et mettez à jour Codelume via le Mac App Store. Cette version inclut la plupart des fonctionnalités.",
+      "websiteDescription": "Téléchargez le programme d’installation pour définir aussi des fonds d’écran natifs de macOS et des fonds d’écran de verrouillage.",
+      "openAppStore": "Ouvrir dans l’App Store",
+      "existingAccount": "La version 6.0 du site utilise Connexion avec Apple. Les comptes et les accès Pro des versions précédentes n’ont pas été transférés.",
+      "websiteReason": "Ces deux fonctions nécessitent un accès à des composants système que le bac à sable de la version App Store ne permet pas. Dans la version du site officiel, macOS gère les fonds d’écran natifs pour des transitions plus fluides. Choisissez la version adaptée à vos besoins.",
+      "pro": {
+        "title": "Pro pour la version du site",
+        "price": "38 CNY, paiement unique",
+        "features": "Débloquez plusieurs écrans, les fonds d’écran Web et de scènes, ainsi que les fonds d’écran et économiseurs natifs de macOS.",
+        "purchase": "Achetez Pro dans la version de Codelume du site. Le montant final s’affiche au paiement."
+      },
+      "systemRequirements": {
+        "title": "Configuration requise",
+        "description": "La version du site nécessite macOS 14.6 ou ultérieur et prend en charge les Mac avec puce Apple ou processeur Intel. Les fonds d’écran natifs et les fonds d’écran de l’économiseur d’écran nécessitent macOS 26 ou ultérieur."
+      }
+    },
+    "editionNote": "La version standard est gratuite. Pro offre plus de fonctionnalités.",
+    "video": {
+      "unsupported": "Votre navigateur ne prend pas en charge la vidéo.",
+      "select": "Afficher le fond d’écran {{number}}"
+    },
+    "wallpaperSubmissionNote": "Les fonds d’écran sélectionnés parmi les contributions de la communauté peuvent être mis à l’honneur sur notre page d’accueil."
+  },
+  "portfolio": {
+    "badge": "Codelume",
+    "latestProject": "La présentation peut différer de la version actuelle.",
+    "featured": {
+      "title": "Codelume",
+      "details": {
+        "industry": {
+          "label": "Gestion des écrans",
+          "value": "Lecture multi-écran, réglages par écran, pause et sourdine"
+        },
+        "style": {
+          "label": "Fonds d’écran locaux",
+          "value": "Export hors ligne, import et modification"
+        },
+        "tone": {
+          "label": "Galerie",
+          "value": "Parcourir, télécharger et proposer des créations"
+        },
+        "format": {
+          "label": "Économiseur d’écran",
+          "value": "Économiseurs personnalisés et lecture sur l’écran verrouillé"
+        },
+        "settings": {
+          "label": "Préférences",
+          "value": "Langue, thème, lancement au démarrage et lecture"
+        }
+      }
+    },
+    "systemWallpapers": {
+      "title": "Types",
+      "subtitle": "Des images fixes aux pages web interactives, Codelume offre plusieurs façons de personnaliser votre bureau. Choisissez un type de fond d’écran adapté aux performances de votre Mac.",
+      "still": {
+        "title": "Fonds d’écran fixes",
+        "performance": "Performances optimales, sans consommation de ressources supplémentaire",
+        "description": "Définissez un fond d’écran fixe de Codelume comme fond du bureau macOS."
+      },
+      "video": {
+        "title": "Fonds d’écran vidéo",
+        "performance": "Faible charge de décodage, expérience optimale",
+        "description": "Lisez une vidéo en boucle sur le bureau ou convertissez-la en fond d’écran lié à l’économiseur d’écran.",
+        "requirements": "La transition nécessite la version du site officiel et macOS 26 ou ultérieur.",
+        "example": "猫伴画姬"
+      },
+      "scene": {
+        "title": "Scènes animées",
+        "performance": "Framework natif de macOS, hautes performances et utilisation accrue des ressources",
+        "description": "Créés avec SpriteKit, les fonds d’écran de scène prennent en charge plusieurs calques, des shaders et des animations. Les éléments peuvent réagir aux mouvements et aux clics de la souris."
+      },
+      "depth": {
+        "title": "Fonds d’écran avec profondeur",
+        "status": "Développement et optimisation en cours",
+        "description": "Le premier plan et l’arrière-plan donnent du relief à l’image."
+      },
+      "web": {
+        "title": "Fonds d’écran web",
+        "performance": "Flexibilité maximale, utilisation accrue des ressources",
+        "description": "Affichez du contenu web, des animations et des informations en direct sur le bureau."
+      }
+    },
+    "wallpaperModes": {
+      "title": "Modes",
+      "subtitle": "Codelume propose deux modes de fond d’écran. Comparez-les ci-dessous.",
+      "native": {
+        "title": "Fonds d’écran système",
+        "points": [
+          "macOS gère le fond d’écran du bureau.",
+          "Prend en charge les images fixes et la transition depuis un économiseur d’écran animé.",
+          "Au retour sur le bureau, le mouvement ralentit jusqu’à s’arrêter."
+        ],
+        "availability": "Disponible uniquement dans la version du site officiel, sous macOS 26 ou ultérieur. Le bac à sable de la version App Store empêche cette fonction.",
+        "demo": "Aperçu simulé"
+      },
+      "codelume": {
+        "title": "Fonds d’écran Codelume",
+        "points": [
+          "Codelume gère le fond d’écran du bureau.",
+          "Prend en charge les images fixes, les vidéos, les scènes, les effets de profondeur et les contenus web.",
+          "L’animation se poursuit sur le bureau au retour de l’économiseur d’écran."
+        ]
+      }
+    },
+    "community": {
+      "title": "Open source",
+      "projects": "Projets Codelume",
+      "closedSource": "Source non publiée",
+      "openSourceDescription": "Nous publierons progressivement le code source des projets Codelume. Chacun pourra le consulter, l’examiner et nous faire part de ses remarques.",
+      "sourceStatus": "Statut du code",
+      "sourceAddress": "Dépôt du code",
+      "sourceUnavailable": "Pas encore publié",
+      "descriptions": {
+        "Codelume": "L’application de fonds d’écran Codelume pour macOS.",
+        "CodelumeBundle": "Une bibliothèque Swift pour lire, modifier et valider les paquets de fonds d’écran.",
+        "CodelumeStudio": "Un atelier de création et de modification des fonds d’écran Codelume.",
+        "CodelumeSaver": "Un économiseur d’écran macOS pour les vidéos et les paquets Codelume.",
+        "CodelumeEngine": "Un projet de moteur destiné au rendu et à la lecture des fonds d’écran.",
+        "CodelumeShared": "Des composants Swift partagés entre les projets Codelume.",
+        "codelume-backend": "Les services de compte, de bibliothèque et de fichiers de Codelume.",
+        "codelume-skills": "Des compétences pour les agents de développement sur les projets Codelume.",
+        "codelume-website": "Le site officiel de Codelume."
+      }
+    },
+    "pricing": {
+      "title": "Éditions",
+      "subtitle": "Les achats Pro financent le stockage des fonds d’écran, les services backend et le développement de Codelume.",
+      "standard": {
+        "title": "Standard",
+        "price": "Gratuit, sans filigrane ni publicité. Tout le nécessaire pour changer de fond d’écran au quotidien."
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "Un achat unique donne accès à toutes les fonctionnalités de Codelume. Consultez le prix sur l’écran d’achat."
+      },
+      "groups": {
+        "modes": "Modes de fond d’écran",
+        "types": "Types de fonds d’écran",
+        "wallpaperFeatures": "Fonctions de fond d’écran"
+      },
+      "supported": "Pris en charge",
+      "partiallySupported": "Partiellement pris en charge",
+      "unsupported": "Non pris en charge",
+      "features": {
+        "displays": "Fonds d’écran multi-écrans",
+        "lockScreen": "Fonds d’écran de verrouillage",
+        "playlists": "Listes de lecture",
+        "library": "Bibliothèque locale",
+        "download": "Télécharger des fonds d’écran",
+        "import": "Importer des fonds d’écran",
+        "upload": "Publier des fonds d’écran",
+        "export": "Exporter des fonds d’écran",
+        "menuBar": "Gestion de la barre des menus",
+        "metrics": "Indicateurs système",
+        "frameRate": "Limite d’images par seconde pour les fonds animés hors vidéo",
+        "storage": "Gestion du stockage",
+        "permissions": "Gestion des autorisations"
+      },
+      "mainDisplayOnly": "Écran principal uniquement",
+      "libraryLimit": "Jusqu’à 20 fonds d’écran",
+      "basicTypesOnly": "Images fixes et vidéos uniquement",
+      "websiteOnly": "Version du site uniquement"
+    }
+  },
+  "workshop": {
+    "badge": "Codelume Studio",
+    "teaser": {
+      "title": "Codelume Studio",
+      "cta": "Télécharger Codelume Studio",
+      "details": {
+        "visual": {
+          "label": "Édition visuelle",
+          "value": "Édition de scènes, réglages et aperçu en direct"
+        },
+        "nodes": {
+          "label": "Nœuds",
+          "value": "Images, formes, vidéos, textes et audio"
+        },
+        "animation": {
+          "label": "Animation",
+          "value": "Déplacement, échelle, fondus et séquences"
+        },
+        "particles": {
+          "label": "Particules",
+          "value": "Particules statiques et dynamiques, réglages"
+        },
+        "shader": {
+          "label": "Shaders",
+          "value": "Contrôle précis par le code"
+        }
+      },
+      "versionNote": "Les fonctionnalités peuvent varier selon la version."
+    }
+  },
+  "footer": {
+    "description": "Codelume est une application native pour macOS qui permet de personnaliser votre bureau avec différents types de fonds d’écran. Partagez vos favoris et faites grandir la communauté Codelume.",
+    "legal": {
+      "title": "Mentions légales",
+      "terms": "Conditions d’utilisation",
+      "privacy": "Politique de confidentialité",
+      "ugc": "Règles de publication"
+    },
+    "tagline": "Conçu pour macOS",
+    "labels": {
+      "appStore": "Codelume sur l’App Store",
+      "email": "Contacter Codelume",
+      "douyin": "Codelume sur Douyin"
+    }
+  },
+  "help": {
+    "title": "Aide et documentation",
+    "back": "Retour à l’accueil",
+    "docBack": "Centre d’aide",
+    "docNavToc": "Sur cette page",
+    "protocolLocaleNote": "La spécification ci-dessous est en chinois.",
+    "logoAlt": "Codelume",
+    "categories": {
+      "app": {
+        "title": "Codelume",
+        "description": "Installer, utiliser et dépanner Codelume."
+      },
+      "wallpaperProtocol": {
+        "title": "Protocole des fonds d’écran",
+        "description": "Structure des fichiers .bundle et conventions de ressources."
+      },
+      "studio": {
+        "title": "Codelume Studio",
+        "description": "Créer et exporter des fonds d’écran avec Codelume Studio."
+      }
+    }
+  },
+  "legal": {
+    "logoAlt": "Codelume",
+    "back": "Retour à l’accueil",
+    "docNavToc": "Sur cette page",
+    "relatedTitle": "Mentions légales",
+    "versionLabel": "Version",
+    "docTitles": {
+      "terms": "Conditions d’utilisation",
+      "privacy": "Politique de confidentialité",
+      "ugc": "Règles de publication"
+    }
+  }
+}

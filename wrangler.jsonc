@@ -1,0 +1,8 @@
+{
+  "name": "codelume-website",
+  "pages_build_output_dir": "./dist",
+  "compatibility_date": "2026-04-29",
+  "r2_buckets": [
+    { "binding": "RELEASES", "bucket_name": "codelume-storage-public" }
+  ]
+}

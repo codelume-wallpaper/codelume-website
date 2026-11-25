@@ -1,0 +1,31 @@
+{
+  "title": "給 Mac 換個壁紙",
+  "cta": {
+    "download": "下載 Mac 版碼鏡",
+    "appStore": "App Store 版",
+    "website": "官網版",
+    "comingSoon": "即將提供",
+    "appStoreDescription": "透過 Mac App Store 安裝與更新，支援碼鏡的大部分功能。",
+    "websiteDescription": "從官網下載安裝套件，另外支援設定 macOS 原生壁紙與鎖定畫面壁紙。",
+    "openAppStore": "在 App Store 中開啟",
+    "existingAccount": "官網版 6.0 使用 Apple 登入。舊版帳號和 Pro 權益未移轉到新版。",
+    "websiteReason": "這兩項功能需要存取系統壁紙元件，超出 App Store 版的沙盒權限。官網版的原生壁紙由 macOS 管理，切換更流暢，可依需求選擇。",
+    "pro": {
+      "title": "官網版 Pro",
+      "price": "人民幣 ¥38，一次買斷",
+      "features": "解鎖多螢幕、網頁與場景壁紙，以及 macOS 原生壁紙和螢幕保護程式壁紙。",
+      "purchase": "請在碼鏡官網版 App 內購買。實際金額以結帳畫面為準。"
+    },
+    "systemRequirements": {
+      "title": "系統需求",
+      "description": "官網版需要 macOS 14.6 或更新版本，支援 Apple 晶片和 Intel 晶片。系統原生壁紙與螢幕保護程式壁紙需要 macOS 26 或更新版本。"
+    }
+  },
+  "video": {
+    "unsupported": "您的浏览器不支持视频播放。",
+    "select": "切換到第 {{number}} 張背景"
+  },
+  "subtitle": "支援設定 Mac 原生壁紙，同時提供更豐富的擴充壁紙類型",
+  "editionNote": "一般版可免費使用，Pro 提供更多功能。",
+  "wallpaperSubmissionNote": "優秀的使用者投稿壁紙有機會在官網首頁展示。"
+}

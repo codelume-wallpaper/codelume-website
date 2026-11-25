@@ -1,0 +1,15 @@
+{
+  "latest": "Versão mais recente",
+  "downloadVersion": "Baixar v{{version}}",
+  "downloadDmg": "Baixar DMG",
+  "universal": "Para Macs com Apple silicon e Intel",
+  "releaseNotes": "Notas da versão",
+  "history": "Versões anteriores",
+  "loading": "Buscando a versão mais recente…",
+  "loadingNotes": "Carregando as notas da versão…",
+  "loadError": "Não foi possível carregar as versões. Tente novamente.",
+  "notesError": "Não foi possível carregar as notas da versão.",
+  "retry": "Tentar novamente",
+  "empty": "Nenhuma versão disponível.",
+  "noNotes": "Não há notas para esta versão."
+}

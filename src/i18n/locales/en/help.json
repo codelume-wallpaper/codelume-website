@@ -1,0 +1,68 @@
+{
+  "title": "Help & documentation",
+  "back": "Back to home",
+  "docBack": "Help hub",
+  "docNavToc": "On this page",
+  "protocolLocaleNote": "The specification below is in Chinese. Keys and field names match the macOS reference implementation; an English translation may be added later.",
+  "logoAlt": "码镜",
+  "categories": {
+    "app": {
+      "title": "码镜",
+      "description": "Install, use, and troubleshoot the dynamic wallpaper app."
+    },
+    "wallpaperProtocol": {
+      "title": "Wallpaper Protocol",
+      "description": "`.bundle` layout, plist fields, and asset conventions."
+    },
+    "studio": {
+      "title": "码镜工坊",
+      "description": "The workshop app, exporting .bundle packs, and using them with 码镜."
+    }
+  },
+  "docs": {
+    "app": {
+      "pageTitle": "码镜",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "content": "码镜 is a macOS dynamic wallpaper app supporting Scene2D and video bundles. This is sample copy—full guides will be added here."
+        },
+        {
+          "id": "install",
+          "title": "Install & updates",
+          "content": "Get 码镜 from the Mac App Store. Update and compatibility notes will expand in this section. (Placeholder)"
+        },
+        {
+          "id": "hub",
+          "title": "Wallpaper Hub",
+          "content": "Browse curated and community picks in Wallpaper Hub; import and management steps will follow. (Placeholder)"
+        }
+      ]
+    },
+    "studio": {
+      "pageTitle": "码镜工坊",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "Overview",
+          "content": "码镜工坊 edits scenes, previews, and exports .bundle wallpaper packs. Sample text—detailed tutorials coming later."
+        },
+        {
+          "id": "export",
+          "title": "Export bundles",
+          "content": "Use export to produce a .bundle for 码镜 with metadata for sharing. (Placeholder)"
+        },
+        {
+          "id": "with-app",
+          "title": "Use with 码镜",
+          "content": "Import bundles into the 码镜 app; contact support by email if you hit compatibility issues. (Placeholder)"
+        }
+      ]
+    },
+    "wallpaperProtocol": {
+      "pageTitle": "Wallpaper Protocol",
+      "sections": []
+    }
+  }
+}

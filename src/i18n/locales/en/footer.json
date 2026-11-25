@@ -1,0 +1,24 @@
+{
+  "brand": "CODELUME",
+  "description": "Codelume is a native macOS wallpaper app that lets you make your desktop your own with a variety of wallpaper types. Share your favorites and help grow the Codelume community.",
+  "links": {
+    "appStore": "https://apps.apple.com/us/app/%E7%A0%81%E9%95%9C/id6751061329?mt=12",
+    "email": "codelume@163.com",
+    "douyin": "https://v.douyin.com/z7E8UAlUsfU/"
+  },
+  "labels": {
+    "appStore": "Ma Jing on the App Store",
+    "email": "Email Ma Jing",
+    "douyin": "Ma Jing on Douyin",
+    "douyinId": "Douyin: 22501983627"
+  },
+  "legal": {
+    "title": "Legal",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "ugc": "UGC Guidelines"
+  },
+  "copyright": "© 2025–2026 Beijing Xingjieli Technology Co., Ltd.",
+  "address": "Designed for macOS desktop immersion",
+  "tagline": "Built with ♥ for macOS"
+}

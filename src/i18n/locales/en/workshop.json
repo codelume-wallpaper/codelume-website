@@ -1,0 +1,92 @@
+{
+  "badge": "Codelume Studio",
+  "teaser": {
+    "title": "Codelume Studio",
+    "cta": "Download Codelume Studio",
+    "details": {
+      "visual": {
+        "label": "Visual editing",
+        "value": "Scene editing / Property tweaks / Live preview"
+      },
+      "nodes": {
+        "label": "Nodes",
+        "value": "Sprite nodes / Shape nodes / Video nodes / Text nodes / Audio nodes"
+      },
+      "animation": {
+        "label": "Animation",
+        "value": "Move / Scale / Fade in-out / Frame sequences"
+      },
+      "particles": {
+        "label": "Particles",
+        "value": "Static particles / Dynamic particles / Parameter tuning"
+      },
+      "shader": {
+        "label": "Shader",
+        "value": "Code-level precise control"
+      }
+    },
+    "versionNote": "Differences may exist across versions"
+  },
+  "header": {
+    "title": "Codelume Studio",
+    "subtitle": "Marketplace & editor preview · 码镜工坊",
+    "back": "Back to Codelume"
+  },
+  "hero": {
+    "title": "Build, remix, and manage dynamic wallpapers",
+    "subtitle": "This is a static preview of Codelume Studio — a home for assets, templates, and editing workflows."
+  },
+  "tabs": {
+    "market": "Marketplace",
+    "editor": "Editor",
+    "publish": "Publish"
+  },
+  "market": {
+    "items": [
+      {
+        "badge": "Bundle",
+        "title": "Local Wallpapers",
+        "description": "Curate private packs and keep assets stored locally."
+      },
+      {
+        "badge": "Template",
+        "title": "Scene Layouts",
+        "description": "Drop in motion presets for Scene2D and Scene3D."
+      },
+      {
+        "badge": "Library",
+        "title": "Creator Collections",
+        "description": "Follow curated sets and organize them by mood."
+      }
+    ]
+  },
+  "editor": {
+    "badge": "Editor",
+    "title": "Timeline + Layer Controls",
+    "description": "Prepare bundles with trimmed loops, audio balance, and playback presets.",
+    "features": {
+      "tooling": {
+        "title": "Bundle Builder",
+        "description": "Package video or scene assets into a single Codelume bundle."
+      },
+      "timeline": {
+        "title": "Scene Timeline",
+        "description": "Set loop points, transitions, and preview clips instantly."
+      },
+      "preview": {
+        "title": "Preview Studio",
+        "description": "Compare playback on multiple screen sizes before export."
+      }
+    }
+  },
+  "publish": {
+    "badge": "Publish",
+    "title": "Ship with confidence",
+    "description": "Prepare metadata, export presets, and share bundles privately.",
+    "tags": {
+      "review": "Review & QA",
+      "export": "Export Presets",
+      "share": "Private Share"
+    }
+  }
+}

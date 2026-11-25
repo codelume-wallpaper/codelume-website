@@ -1,0 +1,141 @@
+{
+  "badge": "Codelume",
+  "latestProject": "May differ from the latest app UI",
+  "featured": {
+    "title": "Codelume",
+    "details": {
+      "industry": {
+        "label": "Display management",
+        "value": "Multi-display playback / Per-display controls / Pause / Mute"
+      },
+      "style": {
+        "label": "Local wallpapers",
+        "value": "Offline export / Import / Re-edit"
+      },
+      "tone": {
+        "label": "Wallpaper hub",
+        "value": "Category browse / Authenticated downloads / Creator submissions"
+      },
+      "format": {
+        "label": "Screensaver",
+        "value": "Custom screensavers / Lock-screen playback"
+      },
+      "settings": {
+        "label": "Preferences",
+        "value": "Language / Theme / Launch at startup / Playback controls"
+      }
+    }
+  },
+  "systemWallpapers": {
+    "title": "Types",
+    "subtitle": "From still images to interactive web pages, Codelume brings different experiences to your desktop. Choose a wallpaper type that suits your Mac’s performance.",
+    "still": {
+      "title": "Still wallpapers",
+      "performance": "Best performance, no extra resource usage",
+      "description": "Set any still wallpaper from Codelume as your macOS desktop wallpaper."
+    },
+    "video": {
+      "title": "Video wallpapers",
+      "performance": "Low decoder usage, best experience",
+      "description": "Loop a video on your desktop or convert it to a wallpaper that transitions from the macOS screen saver.",
+      "requirements": "Screen saver integration requires the website edition and macOS 26 or later.",
+      "example": "猫伴画姬"
+    },
+    "scene": {
+      "title": "Scene wallpapers",
+      "performance": "Native macOS framework, high performance, higher resource usage",
+      "description": "Built with SpriteKit, scene wallpapers support multiple layers, shaders, and animations. Scene elements can respond to mouse movement and clicks."
+    },
+    "depth": {
+      "title": "Depth wallpapers",
+      "status": "Development and optimization in progress",
+      "description": "Separate foreground and background layers give the image a sense of depth."
+    },
+    "web": {
+      "title": "Web wallpapers",
+      "performance": "Most flexibility, higher resource usage",
+      "description": "Show web content, animations, and live information on your desktop."
+    }
+  },
+  "wallpaperModes": {
+    "title": "Modes",
+    "subtitle": "Codelume supports two wallpaper modes. See how they compare below.",
+    "native": {
+      "title": "System wallpapers",
+      "points": [
+        "macOS manages your desktop wallpaper.",
+        "Supports still wallpapers and animated screen saver transitions.",
+        "Motion slows to a still image when you return to the desktop."
+      ],
+      "availability": "Available only in the website edition on macOS 26 or later. The App Store edition’s sandbox prevents this feature.",
+      "demo": "Simulated preview"
+    },
+    "codelume": {
+      "title": "Codelume wallpapers",
+      "points": [
+        "Codelume manages your desktop wallpaper.",
+        "Supports still, video, scene, depth, and web wallpapers.",
+        "Supports screen saver integration. Animated wallpapers keep playing on the desktop."
+      ]
+    }
+  },
+  "community": {
+    "title": "Open source",
+    "projects": "Codelume projects",
+    "closedSource": "Source not yet public",
+    "openSourceDescription": "We’ll publish the source code for Codelume’s projects gradually. Everyone is welcome to review the code and share feedback.",
+    "sourceStatus": "Source status",
+    "sourceAddress": "Source repository",
+    "sourceUnavailable": "Not published yet",
+    "descriptions": {
+      "Codelume": "The Codelume wallpaper app for macOS.",
+      "CodelumeBundle": "A Swift library for reading, editing, and validating wallpaper bundles.",
+      "CodelumeStudio": "A studio for creating and editing Codelume wallpapers.",
+      "CodelumeSaver": "A macOS screen saver for videos and Codelume wallpaper bundles.",
+      "CodelumeEngine": "A planned engine project for rendering and playing Codelume wallpapers.",
+      "CodelumeShared": "Swift components shared across Codelume projects.",
+      "codelume-backend": "Account, wallpaper library, and file services for Codelume.",
+      "codelume-skills": "Codelume project skills for coding agents.",
+      "codelume-website": "The official Codelume website."
+    }
+  },
+  "pricing": {
+    "title": "Editions",
+    "subtitle": "Pro purchases help fund wallpaper storage, backend services, and ongoing development.",
+    "standard": {
+      "title": "Standard",
+      "price": "Free to use, with no watermarks or ads. Everything you need to change your wallpaper day to day."
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "Unlock the full Codelume experience with a one-time purchase. See the purchase screen for the price."
+    },
+    "groups": {
+      "modes": "Wallpaper modes",
+      "types": "Wallpaper types",
+      "wallpaperFeatures": "Wallpaper features"
+    },
+    "supported": "Supported",
+    "partiallySupported": "Partially supported",
+    "unsupported": "Not supported",
+    "features": {
+      "displays": "Multi-display wallpapers",
+      "lockScreen": "Lock screen wallpapers",
+      "playlists": "Playlists",
+      "library": "Local wallpaper library",
+      "download": "Download wallpapers",
+      "import": "Import wallpapers",
+      "upload": "Upload wallpapers",
+      "export": "Export wallpapers",
+      "menuBar": "Menu bar management",
+      "metrics": "System metrics",
+      "frameRate": "Frame rate limit for non-video animated wallpapers",
+      "storage": "Storage management",
+      "permissions": "Permission management"
+    },
+    "mainDisplayOnly": "Main display only",
+    "libraryLimit": "Up to 20 wallpapers",
+    "basicTypesOnly": "Still and video only",
+    "websiteOnly": "Website edition only"
+  }
+}

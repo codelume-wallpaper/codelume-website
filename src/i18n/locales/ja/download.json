@@ -1,0 +1,15 @@
+{
+  "latest": "最新バージョン",
+  "downloadVersion": "v{{version}} をダウンロード",
+  "downloadDmg": "DMG をダウンロード",
+  "universal": "Apple シリコンと Intel Mac に対応",
+  "releaseNotes": "更新内容",
+  "history": "過去のバージョン",
+  "loading": "最新バージョンを確認中…",
+  "loadingNotes": "更新内容を読み込み中…",
+  "loadError": "バージョン情報を取得できません。再試行してください。",
+  "notesError": "更新内容を読み込めませんでした。",
+  "retry": "再試行",
+  "empty": "ダウンロードできるバージョンはありません。",
+  "noNotes": "このバージョンの更新内容はありません。"
+}

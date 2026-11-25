@@ -1,0 +1,68 @@
+{
+  "title": "ヘルプ・ドキュメント",
+  "back": "ホームに戻る",
+  "docBack": "ヘルプ一覧",
+  "docNavToc": "このページ",
+  "protocolLocaleNote": "以下の仕様本文は中国語です。plist のキー名などは macOS 実装と一致します。英語版は追って追加する場合があります。",
+  "logoAlt": "码镜",
+  "categories": {
+    "app": {
+      "title": "码镜",
+      "description": "動的壁紙アプリの導入・操作・よくある質問。"
+    },
+    "wallpaperProtocol": {
+      "title": "壁紙パック仕様",
+      "description": "`.bundle` の構成、plist フィールド、リソースの取り決め。"
+    },
+    "studio": {
+      "title": "码镜工坊",
+      "description": "スタジオアプリ、.bundle の書き出し、码镜との併用。"
+    }
+  },
+  "docs": {
+    "app": {
+      "pageTitle": "码镜",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "概要",
+          "content": "码镜は macOS 向けの動的壁紙アプリで、Scene2D や動画バンドルに対応します。サンプル文です。正式なガイドは後日ここに追加します。"
+        },
+        {
+          "id": "install",
+          "title": "導入と更新",
+          "content": "Mac App Store から入手してください。更新と互換性の説明は追記予定です。（プレースホルダー）"
+        },
+        {
+          "id": "hub",
+          "title": "Wallpaper Hub",
+          "content": "公式厳選や掲載作品を閲覧します。インポートや切り替え手順は後ほど整備します。（プレースホルダー）"
+        }
+      ]
+    },
+    "studio": {
+      "pageTitle": "码镜工坊",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "概要",
+          "content": "シーン編集、プレビュー、.bundle の書き出しに使います。サンプル文です。詳しいチュートリアルは順次追加します。"
+        },
+        {
+          "id": "export",
+          "title": "バンドルの書き出し",
+          "content": "編集後に書き出しで .bundle を生成し、码镜で読み込みます。（プレースホルダー）"
+        },
+        {
+          "id": "with-app",
+          "title": "码镜との併用",
+          "content": "書き出したパッケージをアプリに取り込んで利用します。不具合はメールでご連絡ください。（プレースホルダー）"
+        }
+      ]
+    },
+    "wallpaperProtocol": {
+      "pageTitle": "壁紙パック仕様",
+      "sections": []
+    }
+  }
+}

@@ -1,0 +1,141 @@
+{
+  "badge": "碼鏡",
+  "latestProject": "與最新版本介面可能有所差異",
+  "featured": {
+    "title": "碼鏡",
+    "details": {
+      "industry": {
+        "label": "螢幕管理",
+        "value": "多螢幕播放/單獨管理/暫停/靜音"
+      },
+      "style": {
+        "label": "本機壁紙",
+        "value": "離線匯出/壁紙匯入/二次編輯"
+      },
+      "tone": {
+        "label": "壁紙中心",
+        "value": "分類檢索/鑑權下載/素材投遞"
+      },
+      "format": {
+        "label": "螢幕保護程式",
+        "value": "自訂螢幕保護程式/鎖定畫面播放"
+      },
+      "settings": {
+        "label": "偏好設定",
+        "value": "語言/主題/開機自啟/播放控制"
+      }
+    }
+  },
+  "systemWallpapers": {
+    "title": "類型",
+    "subtitle": "從靜態圖片到互動網頁，碼鏡支援多種壁紙，帶來不同的桌面體驗。請依照電腦效能選擇合適的壁紙類型。",
+    "still": {
+      "title": "靜態壁紙",
+      "performance": "效能最佳，無額外資源消耗",
+      "description": "可將碼鏡中的靜態壁紙直接設為 macOS 桌面壁紙。"
+    },
+    "video": {
+      "title": "影片壁紙",
+      "performance": "輕微占用解碼器資源，體驗最佳",
+      "description": "讓影片在桌面循環播放，也可轉為系統螢幕保護程式聯動壁紙。",
+      "requirements": "螢幕保護程式聯動僅官網版支援 · macOS 26 或更新版本",
+      "example": "貓伴畫姬"
+    },
+    "scene": {
+      "title": "場景壁紙",
+      "performance": "macOS 原生框架，效能優異，資源占用較高",
+      "description": "場景壁紙以 SpriteKit 搭建，支援多圖層、著色器和動畫。場景元素還能回應滑鼠移動與點擊，讓桌面動起來。"
+    },
+    "depth": {
+      "title": "景深壁紙",
+      "status": "開發與優化中",
+      "description": "利用前景與背景的層次，讓畫面更有空間感。"
+    },
+    "web": {
+      "title": "網頁壁紙",
+      "performance": "自由度最高，資源占用較高",
+      "description": "在桌面上呈現網頁內容，可顯示動態效果與即時資訊。"
+    }
+  },
+  "wallpaperModes": {
+    "title": "模式",
+    "subtitle": "碼鏡支援兩種壁紙模式，下方可以比較它們的差異。",
+    "native": {
+      "title": "系統壁紙",
+      "points": [
+        "由 macOS 管理桌面壁紙。",
+        "支援靜態壁紙與動態螢幕保護程式聯動。",
+        "回到桌面後，動態畫面會逐漸減速並定格。"
+      ],
+      "availability": "僅官網版支援，需 macOS 26 或更新版本。App Store 版受沙盒權限限制，不支援此功能。",
+      "demo": "效果示意"
+    },
+    "codelume": {
+      "title": "碼鏡壁紙",
+      "points": [
+        "由碼鏡管理桌面壁紙。",
+        "支援靜態、影片、場景、景深和網頁壁紙。",
+        "支援螢幕保護程式聯動，動態壁紙回到桌面後會繼續播放。"
+      ]
+    }
+  },
+  "community": {
+    "title": "開源",
+    "projects": "碼鏡專案",
+    "closedSource": "暫未開源",
+    "openSourceDescription": "我們會逐步公開碼鏡各專案的原始碼，歡迎大家查閱、檢視並提出建議。",
+    "sourceStatus": "開源狀態",
+    "sourceAddress": "開源網址",
+    "sourceUnavailable": "暫未公開",
+    "descriptions": {
+      "Codelume": "碼鏡 macOS 壁紙應用程式。",
+      "CodelumeBundle": "用於讀取、編輯和驗證壁紙資源包的 Swift 函式庫。",
+      "CodelumeStudio": "用於創作與編輯壁紙的碼鏡工坊。",
+      "CodelumeSaver": "可播放影片和碼鏡壁紙包的 macOS 螢幕保護程式。",
+      "CodelumeEngine": "為碼鏡壁紙算繪和播放預留的引擎專案。",
+      "CodelumeShared": "碼鏡專案共用的 Swift 元件。",
+      "codelume-backend": "為碼鏡提供帳號、壁紙庫和檔案服務。",
+      "codelume-skills": "供開發代理使用的碼鏡專案技能。",
+      "codelume-website": "碼鏡官方網站。"
+    }
+  },
+  "pricing": {
+    "title": "版本",
+    "subtitle": "購買 Pro 可支持壁紙儲存、後端服務與碼鏡的持續開發。",
+    "standard": {
+      "title": "一般版",
+      "price": "免費使用，無浮水印、無廣告。日常更換壁紙，一般版就夠了。"
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "一次買斷，解鎖所有功能，完整體驗碼鏡。實際價格以購買頁面為準。"
+    },
+    "groups": {
+      "modes": "壁紙模式",
+      "types": "壁紙類型",
+      "wallpaperFeatures": "壁紙功能"
+    },
+    "supported": "支援",
+    "partiallySupported": "部分支援",
+    "unsupported": "不支援",
+    "features": {
+      "displays": "多螢幕壁紙",
+      "lockScreen": "鎖定畫面壁紙",
+      "playlists": "播放清單",
+      "library": "本機壁紙庫",
+      "download": "下載壁紙",
+      "import": "匯入壁紙",
+      "upload": "上傳壁紙",
+      "export": "匯出壁紙",
+      "menuBar": "選單列管理",
+      "metrics": "系統指標",
+      "frameRate": "非影片動態壁紙幀率限制",
+      "storage": "儲存管理",
+      "permissions": "權限管理"
+    },
+    "mainDisplayOnly": "僅主螢幕",
+    "libraryLimit": "最多 20 張",
+    "basicTypesOnly": "僅靜態與影片",
+    "websiteOnly": "僅官網版"
+  }
+}

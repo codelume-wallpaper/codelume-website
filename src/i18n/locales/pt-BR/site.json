@@ -1,0 +1,268 @@
+{
+  "common": {
+    "siteTitle": "Codelume — App de papéis de parede para Mac",
+    "language": "Idioma",
+    "followSystem": "Seguir o sistema",
+    "refundPolicy": "Política de reembolso",
+    "close": "Fechar"
+  },
+  "navigation": {
+    "brand": "Codelume",
+    "work": "Codelume",
+    "about": "Papéis de parede e colaboração",
+    "workshop": "Codelume Studio",
+    "help": "Ajuda",
+    "appPreview": "Prévia"
+  },
+  "hero": {
+    "title": "Um novo papel de parede para seu Mac",
+    "subtitle": "Defina papéis de parede nativos do Mac ou descubra outros formatos no Codelume.",
+    "cta": {
+      "download": "Baixar Codelume para Mac",
+      "appStore": "Versão da App Store",
+      "website": "Versão do site oficial",
+      "comingSoon": "Em breve",
+      "appStoreDescription": "Instale e atualize o Codelume pela Mac App Store. Esta versão inclui a maioria dos recursos.",
+      "websiteDescription": "Baixe o instalador para definir também papéis de parede nativos do macOS e da tela bloqueada.",
+      "openAppStore": "Abrir na App Store",
+      "existingAccount": "A versão 6.0 do site usa Iniciar sessão com a Apple. As contas e o acesso ao Pro das versões anteriores não foram transferidos.",
+      "websiteReason": "Esses recursos precisam acessar componentes do sistema que o sandbox da versão da App Store não permite. Na versão do site, o macOS gerencia os papéis de parede nativos para tornar as transições mais fluidas. Escolha a versão que atende às suas necessidades.",
+      "pro": {
+        "title": "Pro para a versão do site",
+        "price": "CNY 38, compra única",
+        "features": "Desbloqueie vários monitores, papéis de parede da web e de cenas, além de papéis de parede e protetores de tela nativos do macOS.",
+        "purchase": "Compre o Pro na versão do site do Codelume. O valor final aparece no checkout."
+      },
+      "systemRequirements": {
+        "title": "Requisitos do sistema",
+        "description": "A versão do site requer macOS 14.6 ou posterior e funciona em Macs com chip da Apple ou processador Intel. Os papéis de parede nativos do sistema e do protetor de tela exigem macOS 26 ou posterior."
+      }
+    },
+    "editionNote": "A versão padrão é gratuita. A versão Pro oferece mais recursos.",
+    "video": {
+      "unsupported": "Seu navegador não oferece suporte a vídeos.",
+      "select": "Mostrar o papel de parede {{number}}"
+    },
+    "wallpaperSubmissionNote": "Papéis de parede selecionados da comunidade podem aparecer na página inicial do site."
+  },
+  "portfolio": {
+    "badge": "Codelume",
+    "latestProject": "A apresentação pode ser diferente da versão atual.",
+    "featured": {
+      "title": "Codelume",
+      "details": {
+        "industry": {
+          "label": "Gerenciamento de telas",
+          "value": "Reprodução em várias telas, controles individuais, pausa e silenciamento"
+        },
+        "style": {
+          "label": "Papéis de parede locais",
+          "value": "Exportação offline, importação e edição"
+        },
+        "tone": {
+          "label": "Galeria de papéis de parede",
+          "value": "Explore, baixe e envie suas criações"
+        },
+        "format": {
+          "label": "Protetor de tela",
+          "value": "Protetores personalizados e reprodução na tela bloqueada"
+        },
+        "settings": {
+          "label": "Preferências",
+          "value": "Idioma, tema, inicialização e reprodução"
+        }
+      }
+    },
+    "systemWallpapers": {
+      "title": "Tipos",
+      "subtitle": "De imagens estáticas a páginas interativas, o Codelume oferece diferentes formas de personalizar sua área de trabalho. Escolha um tipo de papel de parede adequado ao desempenho do seu Mac.",
+      "still": {
+        "title": "Papéis de parede estáticos",
+        "performance": "Melhor desempenho, sem consumo adicional de recursos",
+        "description": "Defina um papel de parede estático do Codelume diretamente como papel de parede do macOS."
+      },
+      "video": {
+        "title": "Papéis de parede em vídeo",
+        "performance": "Baixo uso do decodificador, experiência ideal",
+        "description": "Reproduza um vídeo em loop na área de trabalho ou converta-o em um papel de parede com transição do protetor de tela.",
+        "requirements": "A transição requer a versão do site oficial e macOS 26 ou posterior.",
+        "example": "猫伴画姬"
+      },
+      "scene": {
+        "title": "Papéis de parede de cena",
+        "performance": "Framework nativo do macOS, alto desempenho e maior consumo de recursos",
+        "description": "Os papéis de parede de cena usam SpriteKit e oferecem suporte a várias camadas, shaders e animações. Os elementos podem reagir aos movimentos e cliques do mouse."
+      },
+      "depth": {
+        "title": "Papéis de parede com profundidade",
+        "status": "Em desenvolvimento e otimização",
+        "description": "Camadas em primeiro e segundo plano dão profundidade à imagem."
+      },
+      "web": {
+        "title": "Papéis de parede da web",
+        "performance": "Máxima flexibilidade, maior consumo de recursos",
+        "description": "Exiba conteúdo da web, animações e informações em tempo real na área de trabalho."
+      }
+    },
+    "wallpaperModes": {
+      "title": "Modos",
+      "subtitle": "O Codelume oferece dois modos de papel de parede. Compare os dois abaixo.",
+      "native": {
+        "title": "Papéis de parede do sistema",
+        "points": [
+          "O macOS gerencia o papel de parede da área de trabalho.",
+          "Aceita imagens estáticas e transições a partir do protetor de tela animado.",
+          "Ao voltar à área de trabalho, a animação desacelera até parar."
+        ],
+        "availability": "Disponível apenas na versão do site oficial com macOS 26 ou posterior. As restrições do sandbox impedem esse recurso na versão da App Store.",
+        "demo": "Demonstração simulada"
+      },
+      "codelume": {
+        "title": "Papéis de parede do Codelume",
+        "points": [
+          "O Codelume gerencia o papel de parede da área de trabalho.",
+          "Aceita imagens, vídeos, cenas, efeitos de profundidade e conteúdo da web.",
+          "Integra-se ao protetor de tela e mantém a animação na área de trabalho."
+        ]
+      }
+    },
+    "community": {
+      "title": "Código aberto",
+      "projects": "Projetos do Codelume",
+      "closedSource": "Código não publicado",
+      "openSourceDescription": "Vamos publicar aos poucos o código-fonte dos projetos do Codelume. Qualquer pessoa poderá revisar o código e enviar sugestões.",
+      "sourceStatus": "Status do código",
+      "sourceAddress": "Repositório",
+      "sourceUnavailable": "Ainda não publicado",
+      "descriptions": {
+        "Codelume": "O aplicativo de papéis de parede Codelume para macOS.",
+        "CodelumeBundle": "Uma biblioteca Swift para ler, editar e validar pacotes de papéis de parede.",
+        "CodelumeStudio": "Um estúdio para criar e editar papéis de parede do Codelume.",
+        "CodelumeSaver": "Um protetor de tela do macOS que reproduz vídeos e pacotes do Codelume.",
+        "CodelumeEngine": "Um projeto de motor para renderizar e reproduzir papéis de parede.",
+        "CodelumeShared": "Componentes Swift compartilhados pelos projetos do Codelume.",
+        "codelume-backend": "Serviços de conta, biblioteca e arquivos do Codelume.",
+        "codelume-skills": "Habilidades para agentes de programação nos projetos do Codelume.",
+        "codelume-website": "O site oficial do Codelume."
+      }
+    },
+    "pricing": {
+      "title": "Versões",
+      "subtitle": "As compras do Pro ajudam a financiar o armazenamento de papéis de parede, os serviços de backend e o desenvolvimento do Codelume.",
+      "standard": {
+        "title": "Padrão",
+        "price": "Grátis, sem marcas d’água nem anúncios. Tudo para trocar o papel de parede no dia a dia."
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "Desbloqueie todos os recursos do Codelume com uma compra única. Consulte o preço na tela de compra."
+      },
+      "groups": {
+        "modes": "Modos de papel de parede",
+        "types": "Tipos de papel de parede",
+        "wallpaperFeatures": "Recursos de papel de parede"
+      },
+      "supported": "Compatível",
+      "partiallySupported": "Parcialmente compatível",
+      "unsupported": "Não compatível",
+      "features": {
+        "displays": "Papéis de parede em várias telas",
+        "lockScreen": "Papéis de parede da tela bloqueada",
+        "playlists": "Listas de reprodução",
+        "library": "Biblioteca local",
+        "download": "Baixar papéis de parede",
+        "import": "Importar papéis de parede",
+        "upload": "Enviar papéis de parede",
+        "export": "Exportar papéis de parede",
+        "menuBar": "Gerenciamento da barra de menus",
+        "metrics": "Métricas do sistema",
+        "frameRate": "Limite de quadros para papéis animados que não são vídeos",
+        "storage": "Gerenciamento de armazenamento",
+        "permissions": "Gerenciamento de permissões"
+      },
+      "mainDisplayOnly": "Apenas a tela principal",
+      "libraryLimit": "Até 20 papéis de parede",
+      "basicTypesOnly": "Apenas imagens e vídeos",
+      "websiteOnly": "Apenas na versão do site"
+    }
+  },
+  "workshop": {
+    "badge": "Codelume Studio",
+    "teaser": {
+      "title": "Codelume Studio",
+      "cta": "Baixar Codelume Studio",
+      "details": {
+        "visual": {
+          "label": "Edição visual",
+          "value": "Edite cenas, ajuste propriedades e veja o resultado ao vivo"
+        },
+        "nodes": {
+          "label": "Nós",
+          "value": "Imagens, formas, vídeos, texto e áudio"
+        },
+        "animation": {
+          "label": "Animação",
+          "value": "Movimento, escala, transições e sequências de quadros"
+        },
+        "particles": {
+          "label": "Partículas",
+          "value": "Partículas estáticas e dinâmicas com parâmetros ajustáveis"
+        },
+        "shader": {
+          "label": "Shaders",
+          "value": "Controle preciso por código"
+        }
+      },
+      "versionNote": "Os recursos podem variar conforme a versão."
+    }
+  },
+  "footer": {
+    "description": "Codelume é um aplicativo nativo para macOS com vários tipos de papel de parede para personalizar sua área de trabalho. Compartilhe seus favoritos e ajude a enriquecer a comunidade do Codelume.",
+    "legal": {
+      "title": "Informações legais",
+      "terms": "Termos de uso",
+      "privacy": "Política de privacidade",
+      "ugc": "Diretrizes de publicação"
+    },
+    "tagline": "Feito para macOS",
+    "labels": {
+      "appStore": "Codelume na App Store",
+      "email": "Enviar e-mail ao Codelume",
+      "douyin": "Codelume no Douyin"
+    }
+  },
+  "help": {
+    "title": "Ajuda e documentação",
+    "back": "Voltar ao início",
+    "docBack": "Central de ajuda",
+    "docNavToc": "Nesta página",
+    "protocolLocaleNote": "A especificação abaixo está em chinês.",
+    "logoAlt": "Codelume",
+    "categories": {
+      "app": {
+        "title": "Codelume",
+        "description": "Instale e use o Codelume e resolva problemas."
+      },
+      "wallpaperProtocol": {
+        "title": "Protocolo de papéis de parede",
+        "description": "Estrutura de arquivos .bundle e convenções de recursos."
+      },
+      "studio": {
+        "title": "Codelume Studio",
+        "description": "Crie e exporte papéis de parede com o Codelume Studio."
+      }
+    }
+  },
+  "legal": {
+    "logoAlt": "Codelume",
+    "back": "Voltar ao início",
+    "docNavToc": "Nesta página",
+    "relatedTitle": "Informações legais",
+    "versionLabel": "Versão",
+    "docTitles": {
+      "terms": "Termos de uso",
+      "privacy": "Política de privacidade",
+      "ugc": "Diretrizes de publicação"
+    }
+  }
+}

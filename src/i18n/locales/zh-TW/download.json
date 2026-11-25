@@ -1,0 +1,15 @@
+{
+  "latest": "最新版本",
+  "downloadVersion": "下載 v{{version}}",
+  "downloadDmg": "下載 DMG",
+  "universal": "支援 Apple 晶片與 Intel 晶片",
+  "releaseNotes": "更新說明",
+  "history": "歷史版本",
+  "loading": "正在取得最新版本…",
+  "loadingNotes": "正在載入更新說明…",
+  "loadError": "暫時無法取得版本資訊，請稍後重試。",
+  "notesError": "更新說明暫時無法載入。",
+  "retry": "重試",
+  "empty": "目前沒有可下載的版本。",
+  "noNotes": "此版本暫無更新說明。"
+}

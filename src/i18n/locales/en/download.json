@@ -1,0 +1,15 @@
+{
+  "latest": "Latest release",
+  "downloadVersion": "Download v{{version}}",
+  "downloadDmg": "Download DMG",
+  "universal": "For Apple silicon and Intel Macs",
+  "releaseNotes": "Release notes",
+  "history": "Previous versions",
+  "loading": "Finding the latest release…",
+  "loadingNotes": "Loading release notes…",
+  "loadError": "Unable to load releases. Please try again.",
+  "notesError": "Release notes could not be loaded.",
+  "retry": "Retry",
+  "empty": "No releases are available yet.",
+  "noNotes": "No release notes for this version."
+}

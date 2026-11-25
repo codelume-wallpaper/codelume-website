@@ -1,0 +1,24 @@
+{
+  "brand": "CODELUME",
+  "description": "码镜是一款原生 macOS 壁纸应用，支持多种壁纸类型，让你按自己的喜好布置桌面。欢迎分享你喜欢的壁纸，一起丰富码镜社区。",
+  "links": {
+    "appStore": "https://apps.apple.com/us/app/%E7%A0%81%E9%95%9C/id6751061329?mt=12",
+    "email": "codelume@163.com",
+    "douyin": "https://v.douyin.com/z7E8UAlUsfU/"
+  },
+  "labels": {
+    "appStore": "码镜 App Store",
+    "email": "联系码镜",
+    "douyin": "码镜抖音",
+    "douyinId": "抖音号：22501983627"
+  },
+  "legal": {
+    "title": "法律与政策",
+    "terms": "用户服务协议",
+    "privacy": "隐私政策",
+    "ugc": "投稿须知"
+  },
+  "copyright": "© 2025–2026 北京星界力科技有限公司",
+  "address": "为 macOS 桌面沉浸体验而生",
+  "tagline": "为 macOS 用♥制作"
+}

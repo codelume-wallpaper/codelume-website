@@ -1,0 +1,68 @@
+{
+  "title": "도움말·문서",
+  "back": "홈으로",
+  "docBack": "도움말 목록",
+  "docNavToc": "이 페이지",
+  "protocolLocaleNote": "아래 본문은 중국어로 작성되어 있습니다. plist 키 이름 등은 macOS 구현과 일치합니다. 영어 번역은 추후 추가될 수 있습니다.",
+  "logoAlt": "码镜",
+  "categories": {
+    "app": {
+      "title": "码镜",
+      "description": "동적 월페이퍼 앱 설치, 사용, 자주 묻는 질문."
+    },
+    "wallpaperProtocol": {
+      "title": "월페이퍼 번들 사양",
+      "description": "`.bundle` 레이아웃, plist 필드, 리소스 규약."
+    },
+    "studio": {
+      "title": "码镜工坊",
+      "description": "스튜디오 앱, .bundle 보내기, 码镜과의 연동 안내."
+    }
+  },
+  "docs": {
+    "app": {
+      "pageTitle": "码镜",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "개요",
+          "content": "码镜은 macOS용 동적 월페이퍼 앱이며 Scene2D·동영상 번들을 지원합니다. 샘플 문구이며 정식 가이드는 추가 예정입니다."
+        },
+        {
+          "id": "install",
+          "title": "설치·업데이트",
+          "content": "Mac App Store에서 설치합니다. 업데이트·호환 안내는 이후 보강합니다. (플레이스홀더)"
+        },
+        {
+          "id": "hub",
+          "title": "Wallpaper Hub",
+          "content": "공식 엄선·게시 작품을 둘러봅니다. 가져오기·전환 절차는 추후 정리합니다. (플레이스홀더)"
+        }
+      ]
+    },
+    "studio": {
+      "pageTitle": "码镜工坊",
+      "sections": [
+        {
+          "id": "overview",
+          "title": "개요",
+          "content": "씬 편집, 미리보기, .bundle 보내기에 사용합니다. 샘플 문구이며 자세한 튜토리얼은 순차 추가합니다."
+        },
+        {
+          "id": "export",
+          "title": "번들 보내기",
+          "content": "편집 후 보내기로 .bundle을 만들어 码镜에서 불러옵니다. (플레이스홀더)"
+        },
+        {
+          "id": "with-app",
+          "title": "码镜과 함께",
+          "content": "보낸 패키지를 앱에 넣어 사용합니다. 문제가 있으면 이메일로 문의하세요. (플레이스홀더)"
+        }
+      ]
+    },
+    "wallpaperProtocol": {
+      "pageTitle": "월페이퍼 번들 사양",
+      "sections": []
+    }
+  }
+}

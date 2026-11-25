@@ -1,0 +1,92 @@
+{
+  "badge": "碼鏡工坊",
+  "teaser": {
+    "title": "碼鏡工坊",
+    "cta": "下載碼鏡工坊",
+    "details": {
+      "visual": {
+        "label": "可視化編輯",
+        "value": "場景編輯/屬性修改/即時預覽"
+      },
+      "nodes": {
+        "label": "節點",
+        "value": "精靈節點/圖形節點/影片節點/文字節點/聲音節點"
+      },
+      "animation": {
+        "label": "動畫",
+        "value": "移動/縮放/淡入淡出/序列幀"
+      },
+      "particles": {
+        "label": "粒子",
+        "value": "靜態粒子/動態粒子/參數調優"
+      },
+      "shader": {
+        "label": "著色器",
+        "value": "程式碼級精確控制"
+      }
+    },
+    "versionNote": "不同版本可能存在差異"
+  },
+  "header": {
+    "title": "碼鏡工坊",
+    "subtitle": "Codelume Studio — 素材市場與編輯器預覽",
+    "back": "返回官網"
+  },
+  "hero": {
+    "title": "構建、混剪與管理動態壁紙",
+    "subtitle": "這是碼鏡工坊（Codelume Studio）的靜態預覽頁面，用於展示素材、模板與編輯流程。"
+  },
+  "tabs": {
+    "market": "素材市場",
+    "editor": "編輯器",
+    "publish": "發布"
+  },
+  "market": {
+    "items": [
+      {
+        "badge": "Bundle",
+        "title": "本機壁紙",
+        "description": "建立私有素材包並保持本機儲存。"
+      },
+      {
+        "badge": "Template",
+        "title": "場景模板",
+        "description": "為 2D/3D 場景快速套用動效預設。"
+      },
+      {
+        "badge": "Library",
+        "title": "收藏集",
+        "description": "按主題整理壁紙集合，便於快速切換。"
+      }
+    ]
+  },
+  "editor": {
+    "badge": "編輯器",
+    "title": "時間線與圖層控制",
+    "description": "整理循環、音訊與播放預設，打包為碼鏡壁紙包。",
+    "features": {
+      "tooling": {
+        "title": "壁紙包構建",
+        "description": "將影片或場景素材快速打包。"
+      },
+      "timeline": {
+        "title": "場景時間線",
+        "description": "設定循環區間與過渡效果，即時預覽。"
+      },
+      "preview": {
+        "title": "多螢幕預覽",
+        "description": "在不同螢幕尺寸下提前確認效果。"
+      }
+    }
+  },
+  "publish": {
+    "badge": "發布",
+    "title": "安心交付",
+    "description": "整理中繼資料、匯出預設並私密分享壁紙包。",
+    "tags": {
+      "review": "審核與質檢",
+      "export": "匯出預設",
+      "share": "私密分享"
+    }
+  }
+}

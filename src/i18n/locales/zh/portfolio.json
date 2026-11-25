@@ -1,0 +1,141 @@
+{
+  "badge": "码镜",
+  "latestProject": "不同版本可能存在差异",
+  "featured": {
+    "title": "码镜",
+    "details": {
+      "industry": {
+        "label": "屏幕管理",
+        "value": "多屏播放/单独管理/暂停/静音"
+      },
+      "style": {
+        "label": "本地壁纸",
+        "value": "离线导出/壁纸导入/二次编辑"
+      },
+      "tone": {
+        "label": "壁纸中心",
+        "value": "分类检索/鉴权下载/素材投递"
+      },
+      "format": {
+        "label": "屏保程序",
+        "value": "自定义屏保/锁屏播放"
+      },
+      "settings": {
+        "label": "偏好设置",
+        "value": "语言/主题/开机自启/播放控制"
+      }
+    }
+  },
+  "systemWallpapers": {
+    "title": "类型",
+    "subtitle": "从静态图片到交互网页，码镜支持多种壁纸，带来不同的桌面体验，根据你电脑的性能合理选择壁纸类型。",
+    "still": {
+      "title": "静态壁纸",
+      "performance": "性能最优，无额外资源消耗",
+      "description": "可将码镜中的静态壁纸直接设为 macOS 桌面壁纸。"
+    },
+    "video": {
+      "title": "视频壁纸",
+      "performance": "轻微占用解码器资源，体验最佳",
+      "description": "让视频在桌面循环播放，也可转换为系统屏保联动壁纸。",
+      "requirements": "屏保联动仅官网版支持 · macOS 26 或更新版本",
+      "example": "猫伴画姬"
+    },
+    "scene": {
+      "title": "场景壁纸",
+      "performance": "macOS 原生框架，性能优越，资源占用较高",
+      "description": "场景壁纸基于 SpriteKit 搭建，支持多图层、着色器和动画。场景元素还能响应鼠标移动和点击，让桌面动起来。"
+    },
+    "depth": {
+      "title": "景深壁纸",
+      "status": "正在优化开发中",
+      "description": "利用前景与背景的层次，让画面更有空间感。"
+    },
+    "web": {
+      "title": "网页壁纸",
+      "performance": "自由度最高，资源占用较高",
+      "description": "将网页内容呈现在桌面上，可展示动态效果和实时信息。"
+    }
+  },
+  "wallpaperModes": {
+    "title": "模式",
+    "subtitle": "码镜支持两种壁纸模式，下方可以对比它们的区别。",
+    "native": {
+      "title": "系统壁纸",
+      "points": [
+        "由 macOS 管理桌面壁纸。",
+        "支持静态壁纸和动态屏保联动。",
+        "回到桌面后，动态画面逐渐减速并定格。"
+      ],
+      "availability": "仅官网版支持，需 macOS 26 或更高版本。App Store 版受沙盒权限限制，不支持此功能。",
+      "demo": "效果演示"
+    },
+    "codelume": {
+      "title": "码镜壁纸",
+      "points": [
+        "由码镜管理桌面壁纸。",
+        "支持静态、视频、场景、景深和网页壁纸。",
+        "支持屏保联动，动态壁纸回到桌面后继续播放。"
+      ]
+    }
+  },
+  "community": {
+    "title": "开源",
+    "projects": "码镜项目",
+    "closedSource": "暂未开源",
+    "openSourceDescription": "我们会逐步公开码镜各项目的源代码，欢迎大家查阅、监督并提出建议。",
+    "sourceStatus": "开源状态",
+    "sourceAddress": "开源地址",
+    "sourceUnavailable": "暂未公开",
+    "descriptions": {
+      "Codelume": "码镜 macOS 壁纸应用。",
+      "CodelumeBundle": "用于读取、编辑和验证壁纸资源包的 Swift 库。",
+      "CodelumeStudio": "用于创作与编辑壁纸的码镜工坊。",
+      "CodelumeSaver": "可播放视频和码镜壁纸包的 macOS 屏保。",
+      "CodelumeEngine": "为码镜壁纸渲染和播放预留的引擎项目。",
+      "CodelumeShared": "码镜项目共用的 Swift 组件。",
+      "codelume-backend": "为码镜提供账号、壁纸库和文件服务。",
+      "codelume-skills": "供开发代理使用的码镜项目技能。",
+      "codelume-website": "码镜官方网站。"
+    }
+  },
+  "pricing": {
+    "title": "版本",
+    "subtitle": "购买 Pro 可支持壁纸存储、后台服务和码镜的持续开发。",
+    "standard": {
+      "title": "普通版",
+      "price": "免费使用，无水印、无广告。日常换壁纸，普通版就够了。"
+    },
+    "pro": {
+      "title": "Pro",
+      "price": "一次性买断，解锁全部功能，体验完整的码镜。具体价格以购买页面为准。"
+    },
+    "groups": {
+      "modes": "壁纸模式",
+      "types": "壁纸类型",
+      "wallpaperFeatures": "壁纸功能"
+    },
+    "supported": "支持",
+    "partiallySupported": "部分支持",
+    "unsupported": "不支持",
+    "features": {
+      "displays": "多屏幕壁纸",
+      "lockScreen": "锁屏壁纸",
+      "playlists": "播放列表",
+      "library": "本地壁纸库",
+      "download": "壁纸下载",
+      "import": "壁纸导入",
+      "upload": "壁纸上传",
+      "export": "壁纸导出",
+      "menuBar": "状态栏管理",
+      "metrics": "系统指标",
+      "frameRate": "非视频动态壁纸帧率限制",
+      "storage": "存储管理",
+      "permissions": "权限管理"
+    },
+    "mainDisplayOnly": "仅主屏幕",
+    "libraryLimit": "最多 20 张",
+    "basicTypesOnly": "仅静态和视频",
+    "websiteOnly": "仅官网版"
+  }
+}

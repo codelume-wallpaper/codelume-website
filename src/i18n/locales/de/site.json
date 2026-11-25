@@ -1,0 +1,268 @@
+{
+  "common": {
+    "siteTitle": "Codelume — Wallpaper-App für Mac",
+    "language": "Sprache",
+    "followSystem": "Systemsprache verwenden",
+    "refundPolicy": "Rückerstattungsrichtlinie",
+    "close": "Schließen"
+  },
+  "navigation": {
+    "brand": "Codelume",
+    "work": "Codelume",
+    "about": "Wallpaper & Zusammenarbeit",
+    "workshop": "Codelume Studio",
+    "help": "Hilfe",
+    "appPreview": "Vorschau"
+  },
+  "hero": {
+    "title": "Ein neues Wallpaper für deinen Mac",
+    "subtitle": "Verwende native Mac-Wallpaper oder entdecke weitere Wallpaper-Formate in Codelume.",
+    "cta": {
+      "download": "Codelume für Mac laden",
+      "appStore": "App-Store-Version",
+      "website": "Website-Version",
+      "comingSoon": "Bald verfügbar",
+      "appStoreDescription": "Installation und Updates laufen über den Mac App Store. Diese Version bietet die meisten Codelume-Funktionen.",
+      "websiteDescription": "Mit dem direkten Download kannst du auch native macOS-Wallpaper und Sperrbildschirm-Wallpaper festlegen.",
+      "openAppStore": "Im App Store öffnen",
+      "existingAccount": "Die Website-Version 6.0 verwendet „Mit Apple anmelden“. Konten und Pro-Zugriff früherer Versionen wurden nicht übernommen.",
+      "websiteReason": "Beide Funktionen benötigen Zugriff auf Systemkomponenten, den die Sandbox der App-Store-Version nicht erlaubt. In der Website-Version verwaltet macOS die nativen Wallpaper, damit die Übergänge flüssiger sind. Wähle die Version, die zu deinen Anforderungen passt.",
+      "pro": {
+        "title": "Pro für die Website-Version",
+        "price": "38 CNY, einmaliger Kauf",
+        "features": "Schalte mehrere Displays, Web- und Szenen-Wallpaper sowie native macOS-Wallpaper und Bildschirmschoner frei.",
+        "purchase": "Kaufe Pro in der Website-Version von Codelume. Den endgültigen Betrag siehst du beim Bezahlen."
+      },
+      "systemRequirements": {
+        "title": "Systemanforderungen",
+        "description": "Die Website-Version benötigt macOS 14.6 oder neuer und unterstützt Macs mit Apple-Chip oder Intel-Prozessor. Native System-Wallpaper und Bildschirmschoner-Wallpaper benötigen macOS 26 oder neuer."
+      }
+    },
+    "editionNote": "Die Standardversion ist kostenlos. Pro bietet weitere Funktionen.",
+    "video": {
+      "unsupported": "Dein Browser unterstützt keine Videos.",
+      "select": "Wallpaper {{number}} anzeigen"
+    },
+    "wallpaperSubmissionNote": "Ausgewählte Wallpaper aus der Community können auf unserer Startseite gezeigt werden."
+  },
+  "portfolio": {
+    "badge": "Codelume",
+    "latestProject": "Die Darstellung kann von der aktuellen Version abweichen.",
+    "featured": {
+      "title": "Codelume",
+      "details": {
+        "industry": {
+          "label": "Bildschirmverwaltung",
+          "value": "Mehrere Bildschirme, individuelle Steuerung, Pause und Stummschaltung"
+        },
+        "style": {
+          "label": "Lokale Wallpaper",
+          "value": "Offline-Export, Import und Bearbeitung"
+        },
+        "tone": {
+          "label": "Wallpaper-Galerie",
+          "value": "Stöbern, herunterladen und eigene Werke einreichen"
+        },
+        "format": {
+          "label": "Bildschirmschoner",
+          "value": "Eigene Bildschirmschoner und Wiedergabe auf dem Sperrbildschirm"
+        },
+        "settings": {
+          "label": "Einstellungen",
+          "value": "Sprache, Design, Autostart und Wiedergabe"
+        }
+      }
+    },
+    "systemWallpapers": {
+      "title": "Typen",
+      "subtitle": "Von Standbildern bis zu interaktiven Webseiten bietet Codelume verschiedene Möglichkeiten, deinen Schreibtisch zu gestalten. Wähle einen Wallpaper-Typ, der zur Leistung deines Macs passt.",
+      "still": {
+        "title": "Statische Wallpaper",
+        "performance": "Beste Leistung, ohne zusätzlichen Ressourcenverbrauch",
+        "description": "Lege ein statisches Wallpaper aus Codelume direkt als macOS-Desktop-Wallpaper fest."
+      },
+      "video": {
+        "title": "Video-Wallpaper",
+        "performance": "Geringe Decoderlast, bestes Erlebnis",
+        "description": "Spiele ein Video in Endlosschleife auf dem Schreibtisch ab oder wandle es in ein Wallpaper mit Bildschirmschoner-Übergang um.",
+        "requirements": "Der Übergang erfordert die Website-Version und macOS 26 oder neuer.",
+        "example": "猫伴画姬"
+      },
+      "scene": {
+        "title": "Szenen-Wallpaper",
+        "performance": "Natives macOS-Framework mit hoher Leistung und höherem Ressourcenverbrauch",
+        "description": "Szenen-Wallpaper basieren auf SpriteKit und unterstützen mehrere Ebenen, Shader und Animationen. Elemente können auf Mausbewegungen und Klicks reagieren."
+      },
+      "depth": {
+        "title": "Tiefen-Wallpaper",
+        "status": "Entwicklung und Optimierung laufen",
+        "description": "Vorder- und Hintergrundebenen verleihen dem Bild räumliche Tiefe."
+      },
+      "web": {
+        "title": "Web-Wallpaper",
+        "performance": "Maximale Flexibilität, höherer Ressourcenverbrauch",
+        "description": "Zeige Webinhalte, Animationen und Live-Informationen auf deinem Desktop an."
+      }
+    },
+    "wallpaperModes": {
+      "title": "Modi",
+      "subtitle": "Codelume unterstützt zwei Wallpaper-Modi. Vergleiche sie unten.",
+      "native": {
+        "title": "System-Wallpaper",
+        "points": [
+          "macOS verwaltet dein Desktop-Wallpaper.",
+          "Unterstützt Standbilder und Übergänge aus dem animierten Bildschirmschoner.",
+          "Bei der Rückkehr zum Desktop kommt die Bewegung langsam zum Stillstand."
+        ],
+        "availability": "Nur in der Website-Version ab macOS 26 verfügbar. Die Sandbox der App-Store-Version lässt diese Funktion nicht zu.",
+        "demo": "Simulierte Vorschau"
+      },
+      "codelume": {
+        "title": "Codelume-Wallpaper",
+        "points": [
+          "Codelume verwaltet dein Desktop-Wallpaper.",
+          "Unterstützt Bilder, Videos, Szenen, Tiefeneffekte und Webinhalte.",
+          "Unterstützt die Bildschirmschoner-Integration. Die Animation läuft auf dem Desktop weiter."
+        ]
+      }
+    },
+    "community": {
+      "title": "Open Source",
+      "projects": "Codelume-Projekte",
+      "closedSource": "Quellcode unveröffentlicht",
+      "openSourceDescription": "Wir veröffentlichen den Quellcode der Codelume-Projekte nach und nach. Alle sind eingeladen, den Code zu prüfen und Rückmeldung zu geben.",
+      "sourceStatus": "Quellcode-Status",
+      "sourceAddress": "Quellcode-Repository",
+      "sourceUnavailable": "Noch nicht veröffentlicht",
+      "descriptions": {
+        "Codelume": "Die Codelume-Wallpaper-App für macOS.",
+        "CodelumeBundle": "Eine Swift-Bibliothek zum Lesen, Bearbeiten und Prüfen von Wallpaper-Paketen.",
+        "CodelumeStudio": "Ein Studio zum Erstellen und Bearbeiten von Codelume-Wallpapern.",
+        "CodelumeSaver": "Ein macOS-Bildschirmschoner für Videos und Codelume-Wallpaper-Pakete.",
+        "CodelumeEngine": "Ein geplantes Engine-Projekt zum Rendern und Abspielen von Wallpapern.",
+        "CodelumeShared": "Gemeinsame Swift-Komponenten für Codelume-Projekte.",
+        "codelume-backend": "Konto-, Wallpaper-Bibliotheks- und Dateidienste für Codelume.",
+        "codelume-skills": "Skills für Coding-Agenten in Codelume-Projekten.",
+        "codelume-website": "Die offizielle Codelume-Website."
+      }
+    },
+    "pricing": {
+      "title": "Versionen",
+      "subtitle": "Pro-Käufe unterstützen die Wallpaper-Speicherung, die Backend-Dienste und die Weiterentwicklung von Codelume.",
+      "standard": {
+        "title": "Standard",
+        "price": "Kostenlos, ohne Wasserzeichen und Werbung. Alles für den täglichen Wallpaper-Wechsel."
+      },
+      "pro": {
+        "title": "Pro",
+        "price": "Einmal kaufen und alle Funktionen von Codelume freischalten. Den Preis findest du auf der Kaufseite."
+      },
+      "groups": {
+        "modes": "Wallpaper-Modi",
+        "types": "Wallpaper-Typen",
+        "wallpaperFeatures": "Wallpaper-Funktionen"
+      },
+      "supported": "Unterstützt",
+      "partiallySupported": "Teilweise unterstützt",
+      "unsupported": "Nicht unterstützt",
+      "features": {
+        "displays": "Wallpaper auf mehreren Bildschirmen",
+        "lockScreen": "Sperrbildschirm-Wallpaper",
+        "playlists": "Wiedergabelisten",
+        "library": "Lokale Wallpaper-Bibliothek",
+        "download": "Wallpaper herunterladen",
+        "import": "Wallpaper importieren",
+        "upload": "Wallpaper hochladen",
+        "export": "Wallpaper exportieren",
+        "menuBar": "Menüleistenverwaltung",
+        "metrics": "Systemwerte",
+        "frameRate": "Bildratenlimit für animierte Wallpaper ohne Video",
+        "storage": "Speicherverwaltung",
+        "permissions": "Berechtigungsverwaltung"
+      },
+      "mainDisplayOnly": "Nur Hauptbildschirm",
+      "libraryLimit": "Bis zu 20 Wallpaper",
+      "basicTypesOnly": "Nur Standbilder und Videos",
+      "websiteOnly": "Nur Website-Version"
+    }
+  },
+  "workshop": {
+    "badge": "Codelume Studio",
+    "teaser": {
+      "title": "Codelume Studio",
+      "cta": "Codelume Studio laden",
+      "details": {
+        "visual": {
+          "label": "Visuelle Bearbeitung",
+          "value": "Szenen bearbeiten, Eigenschaften ändern und Vorschau anzeigen"
+        },
+        "nodes": {
+          "label": "Knoten",
+          "value": "Bilder, Formen, Videos, Texte und Audio"
+        },
+        "animation": {
+          "label": "Animation",
+          "value": "Bewegung, Skalierung, Überblendung und Bildfolgen"
+        },
+        "particles": {
+          "label": "Partikel",
+          "value": "Statische und dynamische Partikel, einstellbare Parameter"
+        },
+        "shader": {
+          "label": "Shader",
+          "value": "Präzise Steuerung per Code"
+        }
+      },
+      "versionNote": "Der Funktionsumfang kann je nach Version variieren."
+    }
+  },
+  "footer": {
+    "description": "Codelume ist eine native macOS-App, mit der du deinen Schreibtisch mit verschiedenen Wallpaper-Typen nach deinem Geschmack gestalten kannst. Teile deine Favoriten und hilf mit, die Codelume-Community zu bereichern.",
+    "legal": {
+      "title": "Rechtliches",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz",
+      "ugc": "Richtlinien für Nutzerinhalte"
+    },
+    "tagline": "Für macOS entwickelt",
+    "labels": {
+      "appStore": "Codelume im App Store",
+      "email": "Codelume per E-Mail kontaktieren",
+      "douyin": "Codelume auf Douyin"
+    }
+  },
+  "help": {
+    "title": "Hilfe und Dokumentation",
+    "back": "Zurück zur Startseite",
+    "docBack": "Hilfeübersicht",
+    "docNavToc": "Auf dieser Seite",
+    "protocolLocaleNote": "Die folgende Spezifikation ist auf Chinesisch.",
+    "logoAlt": "Codelume",
+    "categories": {
+      "app": {
+        "title": "Codelume",
+        "description": "Codelume installieren, verwenden und Fehler beheben."
+      },
+      "wallpaperProtocol": {
+        "title": "Wallpaper-Protokoll",
+        "description": "Aufbau von .bundle-Dateien und Konventionen für Ressourcen."
+      },
+      "studio": {
+        "title": "Codelume Studio",
+        "description": "Wallpaper mit Codelume Studio erstellen und exportieren."
+      }
+    }
+  },
+  "legal": {
+    "logoAlt": "Codelume",
+    "back": "Zurück zur Startseite",
+    "docNavToc": "Auf dieser Seite",
+    "relatedTitle": "Rechtliches",
+    "versionLabel": "Version",
+    "docTitles": {
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutz",
+      "ugc": "Richtlinien für Nutzerinhalte"
+    }
+  }
+}
