@@ -38,7 +38,7 @@
       "title": "動画壁紙",
       "performance": "デコーダー負荷を抑えて、快適な体験を",
       "description": "デスクトップで動画をループ再生したり、スクリーンセーバーと連動する壁紙に変換したりできます。",
-      "requirements": "スクリーンセーバー連動には公式サイト版と macOS 26 以降が必要です。",
+      "requirements": "スクリーンセーバとの連動にはmacOS 26以降が必要です。",
       "example": "猫伴画姫"
     },
     "scene": {
@@ -67,7 +67,7 @@
         "静止画の壁紙と動くスクリーンセーバーとの連動に対応します。",
         "デスクトップに戻ると動きが徐々に止まり、静止画になります。"
       ],
-      "availability": "公式サイト版のみ対応（macOS 26以降）。App Store版ではサンドボックスの制限により利用できません。",
+      "availability": "macOS 26以降が必要です。",
       "demo": "動作イメージ"
     },
     "codelume": {
@@ -135,7 +135,6 @@
     },
     "mainDisplayOnly": "メインディスプレイのみ",
     "libraryLimit": "最大20枚",
-    "basicTypesOnly": "静止画と動画のみ",
-    "websiteOnly": "公式サイト版のみ"
+    "basicTypesOnly": "静止画と動画のみ"
   }
 }

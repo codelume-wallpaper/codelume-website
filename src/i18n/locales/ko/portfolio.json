@@ -38,7 +38,7 @@
       "title": "동영상 배경화면",
       "performance": "디코더 사용량은 낮게, 사용 경험은 최상으로",
       "description": "데스크탑에서 동영상을 반복 재생하거나 화면 보호기와 연동되는 배경화면으로 변환할 수 있습니다.",
-      "requirements": "화면 보호기 연동에는 공식 웹사이트 버전과 macOS 26 이상이 필요합니다.",
+      "requirements": "화면 보호기 연동에는 macOS 26 이상이 필요합니다.",
       "example": "猫伴画姬"
     },
     "scene": {
@@ -67,7 +67,7 @@
         "정적 배경화면과 움직이는 화면 보호기 연동을 지원합니다.",
         "데스크톱으로 돌아오면 움직임이 서서히 느려지고 정지합니다."
       ],
-      "availability": "공식 웹사이트 버전에서만 지원하며 macOS 26 이상이 필요합니다. App Store 버전은 샌드박스 제한으로 지원하지 않습니다.",
+      "availability": "macOS 26 이상이 필요합니다.",
       "demo": "효과 시뮬레이션"
     },
     "codelume": {
@@ -135,7 +135,6 @@
     },
     "mainDisplayOnly": "기본 디스플레이만",
     "libraryLimit": "최대 20개",
-    "basicTypesOnly": "이미지와 동영상만",
-    "websiteOnly": "공식 웹사이트 버전 전용"
+    "basicTypesOnly": "이미지와 동영상만"
   }
 }

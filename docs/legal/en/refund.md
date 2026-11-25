@@ -2,11 +2,11 @@
 
 This policy covers payments for Codelume Pro. Check your receipt and request a refund from the provider that charged you. Codelume is operated by Beijing Xingjieli Technology Co., Ltd.
 
-## Direct payments through Paddle
+## Payments through Paddle
 
 If Paddle issued your receipt, request a refund using the support link in that receipt or through [Paddle Buyer Support](https://paddle.net/). Paddle handles requests under its [Refund Policy](https://www.paddle.com/legal/refund-policy) and applicable law. Eligibility and request deadlines vary by region and transaction type.
 
-## Mac App Store payments
+## Past purchases billed by Apple
 
 If Apple issued your receipt, sign in to [Report a Problem](https://reportaproblem.apple.com/) with the Apple Account you used to pay. Select “Request a refund” and choose the Codelume purchase. Apple reviews and processes these requests. See [Apple’s refund guide](https://support.apple.com/en-us/118223) for instructions.
 

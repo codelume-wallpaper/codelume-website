@@ -38,7 +38,7 @@
       "title": "视频壁纸",
       "performance": "轻微占用解码器资源，体验最佳",
       "description": "让视频在桌面循环播放，也可转换为系统屏保联动壁纸。",
-      "requirements": "屏保联动仅官网版支持 · macOS 26 或更新版本",
+      "requirements": "屏保联动需要 macOS 26 或更高版本。",
       "example": "猫伴画姬"
     },
     "scene": {
@@ -67,7 +67,7 @@
         "支持静态壁纸和动态屏保联动。",
         "回到桌面后，动态画面逐渐减速并定格。"
       ],
-      "availability": "仅官网版支持，需 macOS 26 或更高版本。App Store 版受沙盒权限限制，不支持此功能。",
+      "availability": "需要 macOS 26 或更高版本。",
       "demo": "效果演示"
     },
     "codelume": {
@@ -135,7 +135,6 @@
     },
     "mainDisplayOnly": "仅主屏幕",
     "libraryLimit": "最多 20 张",
-    "basicTypesOnly": "仅静态和视频",
-    "websiteOnly": "仅官网版"
+    "basicTypesOnly": "仅静态和视频"
   }
 }

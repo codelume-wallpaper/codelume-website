@@ -1,8 +1,11 @@
 {
-  "latest": "Versão mais recente",
+  "installerTitle": "Instalador para macOS",
   "downloadVersion": "Baixar v{{version}}",
   "downloadDmg": "Baixar DMG",
   "universal": "Para Macs com Apple silicon e Intel",
+  "macosRequirements": "Requer macOS 14.6 ou posterior. Os papéis de parede nativos do sistema e os do protetor de tela exigem macOS 26 ou posterior.",
+  "macosTesting": "Recomendamos a versão mais recente do macOS. As versões anteriores do macOS não são testadas separadamente.",
+  "supportEmail": "Se encontrar algum problema, envie um e-mail para <contact>{{email}}</contact>.",
   "releaseNotes": "Notas da versão",
   "history": "Versões anteriores",
   "loading": "Buscando a versão mais recente…",

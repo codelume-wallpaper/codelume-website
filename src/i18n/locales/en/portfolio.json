@@ -38,7 +38,7 @@
       "title": "Video wallpapers",
       "performance": "Low decoder usage, best experience",
       "description": "Loop a video on your desktop or convert it to a wallpaper that transitions from the macOS screen saver.",
-      "requirements": "Screen saver integration requires the website edition and macOS 26 or later.",
+      "requirements": "Screen saver integration requires macOS 26 or later.",
       "example": "猫伴画姬"
     },
     "scene": {
@@ -67,7 +67,7 @@
         "Supports still wallpapers and animated screen saver transitions.",
         "Motion slows to a still image when you return to the desktop."
       ],
-      "availability": "Available only in the website edition on macOS 26 or later. The App Store edition’s sandbox prevents this feature.",
+      "availability": "Requires macOS 26 or later.",
       "demo": "Simulated preview"
     },
     "codelume": {
@@ -135,7 +135,6 @@
     },
     "mainDisplayOnly": "Main display only",
     "libraryLimit": "Up to 20 wallpapers",
-    "basicTypesOnly": "Still and video only",
-    "websiteOnly": "Website edition only"
+    "basicTypesOnly": "Still and video only"
   }
 }

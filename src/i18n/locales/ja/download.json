@@ -1,8 +1,11 @@
 {
-  "latest": "最新バージョン",
+  "installerTitle": "macOS用インストーラ",
   "downloadVersion": "v{{version}} をダウンロード",
   "downloadDmg": "DMG をダウンロード",
   "universal": "Apple シリコンと Intel Mac に対応",
+  "macosRequirements": "macOS 14.6以降に対応しています。システム標準の壁紙とスクリーンセーバの壁紙にはmacOS 26以降が必要です。",
+  "macosTesting": "最新のmacOSを推奨します。旧バージョンのmacOSでは個別のテストを行っていません。",
+  "supportEmail": "問題が発生した場合は、<contact>{{email}}</contact> までご連絡ください。",
   "releaseNotes": "更新内容",
   "history": "過去のバージョン",
   "loading": "最新バージョンを確認中…",

@@ -1,8 +1,11 @@
 {
-  "latest": "Dernière version",
+  "installerTitle": "Fichier d’installation pour macOS",
   "downloadVersion": "Télécharger v{{version}}",
   "downloadDmg": "Télécharger le DMG",
   "universal": "Pour les Mac Apple silicon et Intel",
+  "macosRequirements": "Nécessite macOS 14.6 ou ultérieur. Les fonds d’écran natifs du système et ceux de l’économiseur d’écran nécessitent macOS 26 ou ultérieur.",
+  "macosTesting": "Nous recommandons la dernière version de macOS. Les versions antérieures ne sont pas testées séparément.",
+  "supportEmail": "En cas de problème, écrivez-nous à <contact>{{email}}</contact>.",
   "releaseNotes": "Notes de version",
   "history": "Versions précédentes",
   "loading": "Recherche de la dernière version…",

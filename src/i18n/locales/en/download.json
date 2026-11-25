@@ -1,8 +1,11 @@
 {
-  "latest": "Latest release",
+  "installerTitle": "macOS installer",
   "downloadVersion": "Download v{{version}}",
   "downloadDmg": "Download DMG",
   "universal": "For Apple silicon and Intel Macs",
+  "macosRequirements": "Requires macOS 14.6 or later. Native system wallpapers and screen saver wallpapers require macOS 26 or later.",
+  "macosTesting": "We recommend the latest version of macOS. Older macOS versions are not tested separately.",
+  "supportEmail": "If you run into a problem, email <contact>{{email}}</contact>.",
   "releaseNotes": "Release notes",
   "history": "Previous versions",
   "loading": "Finding the latest release…",

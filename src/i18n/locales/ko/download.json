@@ -1,8 +1,11 @@
 {
-  "latest": "최신 버전",
+  "installerTitle": "macOS 설치 파일",
   "downloadVersion": "v{{version}} 다운로드",
   "downloadDmg": "DMG 다운로드",
   "universal": "Apple silicon 및 Intel Mac 지원",
+  "macosRequirements": "macOS 14.6 이상을 지원합니다. 시스템 기본 배경화면과 화면 보호기 배경화면에는 macOS 26 이상이 필요합니다.",
+  "macosTesting": "최신 버전의 macOS를 권장합니다. 이전 macOS 버전은 별도로 테스트하지 않습니다.",
+  "supportEmail": "문제가 발생하면 <contact>{{email}}</contact> 주소로 문의해 주세요.",
   "releaseNotes": "업데이트 내역",
   "history": "이전 버전",
   "loading": "최신 버전 확인 중…",

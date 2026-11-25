@@ -25,23 +25,6 @@ export function Footer() {
               </p>
               {/* 社交媒体图标 */}
               <div className="-ml-2 flex items-center gap-1.5">
-                {/* App Store */}
-                <a
-                  href={t('links.appStore')}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="grid size-11 shrink-0 place-items-center rounded-full text-foreground/80 transition-colors hover:bg-foreground/10 hover:text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                  aria-label={t('labels.appStore')}
-                >
-                  <svg width="17" height="17" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                    <path d="M9.2 4.5 5.5 10.9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                    <path d="M14.8 4.5 18.5 10.9" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                    <path d="M7.2 14.2h9.6" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                    <path d="M10.9 10.9 7.8 16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                    <path d="M13.1 10.9 16.2 16.5" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
-                  </svg>
-                </a>
-
                 {/* Douyin */}
                 <a
                   href={t('links.douyin')}

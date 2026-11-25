@@ -1,8 +1,11 @@
 {
-  "latest": "Última versión",
+  "installerTitle": "Instalador para macOS",
   "downloadVersion": "Descargar v{{version}}",
   "downloadDmg": "Descargar DMG",
   "universal": "Para Mac con chip de Apple e Intel",
+  "macosRequirements": "Requiere macOS 14.6 o posterior. Los fondos de pantalla nativos del sistema y los del salvapantallas requieren macOS 26 o posterior.",
+  "macosTesting": "Recomendamos la versión más reciente de macOS. No probamos las versiones anteriores de macOS por separado.",
+  "supportEmail": "Si tienes algún problema, escríbenos a <contact>{{email}}</contact>.",
   "releaseNotes": "Novedades",
   "history": "Versiones anteriores",
   "loading": "Buscando la última versión…",

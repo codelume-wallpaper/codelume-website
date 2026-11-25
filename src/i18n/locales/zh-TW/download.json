@@ -1,8 +1,11 @@
 {
-  "latest": "最新版本",
+  "installerTitle": "macOS 安裝檔",
   "downloadVersion": "下載 v{{version}}",
   "downloadDmg": "下載 DMG",
   "universal": "支援 Apple 晶片與 Intel 晶片",
+  "macosRequirements": "支援 macOS 14.6 或更新版本。系統原生桌布和螢幕保護程式桌布需要 macOS 26 或更新版本。",
+  "macosTesting": "建議使用最新版 macOS。舊版 macOS 不會單獨測試。",
+  "supportEmail": "如遇問題，請來信至 <contact>{{email}}</contact>。",
   "releaseNotes": "更新說明",
   "history": "歷史版本",
   "loading": "正在取得最新版本…",

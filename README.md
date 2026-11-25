@@ -62,7 +62,7 @@
 
 ### 5) 下载（Download）
 
-`/download` 从生产 R2 桶 `codelume-storage-public` 的 `releases/` 自动读取正式 DMG，以版本号降序展示最新版和历史版本。上传时间用于页面日期，最新版本按版本号判断。页面保留 App Store 入口。
+`/download` 从生产 R2 桶 `codelume-storage-public` 的 `releases/` 自动读取正式 DMG，以版本号降序展示最新版和历史版本。上传时间用于页面日期，最新版本按版本号判断。
 
 安装包采用 `Codelume-x.y.z.dmg` 命名，对应更新说明为 UTF-8 纯文本 `Codelume-x.y.z.txt`，放在同一目录，最大 64 KiB。预览包、测试版、空文件和子目录不会进入下载列表。更新说明缺失时仍可下载，页面提示暂无说明；已有说明源文件见 [releases](docs/releases/)。
 

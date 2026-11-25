@@ -38,7 +38,7 @@
       "title": "影片壁紙",
       "performance": "輕微占用解碼器資源，體驗最佳",
       "description": "讓影片在桌面循環播放，也可轉為系統螢幕保護程式聯動壁紙。",
-      "requirements": "螢幕保護程式聯動僅官網版支援 · macOS 26 或更新版本",
+      "requirements": "螢幕保護程式連動需要 macOS 26 或更新版本。",
       "example": "貓伴畫姬"
     },
     "scene": {
@@ -67,7 +67,7 @@
         "支援靜態壁紙與動態螢幕保護程式聯動。",
         "回到桌面後，動態畫面會逐漸減速並定格。"
       ],
-      "availability": "僅官網版支援，需 macOS 26 或更新版本。App Store 版受沙盒權限限制，不支援此功能。",
+      "availability": "需要 macOS 26 或更新版本。",
       "demo": "效果示意"
     },
     "codelume": {
@@ -135,7 +135,6 @@
     },
     "mainDisplayOnly": "僅主螢幕",
     "libraryLimit": "最多 20 張",
-    "basicTypesOnly": "僅靜態與影片",
-    "websiteOnly": "僅官網版"
+    "basicTypesOnly": "僅靜態與影片"
   }
 }

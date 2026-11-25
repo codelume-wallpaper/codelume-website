@@ -10,14 +10,13 @@ type PricingFeature = {
   label: string
   proOnly: boolean
   standardLimit?: string
-  websiteOnly?: boolean
 }
 
 const featureGroups: ReadonlyArray<{ id: string; features: readonly PricingFeature[] }> = [
   {
     id: 'modes',
     features: [
-      { label: 'wallpaperModes.native.title', proOnly: true, websiteOnly: true },
+      { label: 'wallpaperModes.native.title', proOnly: true },
       { label: 'wallpaperModes.codelume.title', proOnly: false, standardLimit: 'partiallySupported' },
     ],
   },
@@ -35,7 +34,7 @@ const featureGroups: ReadonlyArray<{ id: string; features: readonly PricingFeatu
     id: 'wallpaperFeatures',
     features: [
       { label: 'pricing.features.displays', proOnly: false, standardLimit: 'mainDisplayOnly' },
-      { label: 'pricing.features.lockScreen', proOnly: true, websiteOnly: true },
+      { label: 'pricing.features.lockScreen', proOnly: true },
       { label: 'pricing.features.playlists', proOnly: false, standardLimit: 'mainDisplayOnly' },
       { label: 'pricing.features.library', proOnly: false, standardLimit: 'libraryLimit' },
       { label: 'pricing.features.download', proOnly: false, standardLimit: 'basicTypesOnly' },
@@ -96,7 +95,7 @@ export function Pricing() {
                     style={{ gridRow: `span ${features.length}` }}
                     className="grid divide-y divide-border/70 border-y border-border/70 md:grid-rows-subgrid"
                   >
-                    {features.map(({ label, proOnly, standardLimit, websiteOnly }) => {
+                    {features.map(({ label, proOnly, standardLimit }) => {
                       const supported = id === 'pro' || !proOnly
                       const limit = id === 'standard' ? standardLimit : undefined
                       const StatusIcon = supported ? Check : X
@@ -112,11 +111,6 @@ export function Pricing() {
                             {limit && (
                               <span className="rounded-full bg-accent-purple px-2.5 py-0.5 text-xs font-semibold text-white">
                                 {t(`pricing.${limit}`)}
-                              </span>
-                            )}
-                            {websiteOnly && id === 'pro' && (
-                              <span className="rounded-full bg-[color:var(--brand-gradient-start)] px-2.5 py-0.5 text-xs font-semibold text-white">
-                                {t('pricing.websiteOnly')}
                               </span>
                             )}
                           </span>

@@ -2,12 +2,10 @@
   "brand": "CODELUME",
   "description": "碼鏡是一款原生 macOS 壁紙應用程式，支援多種壁紙類型，讓你依照自己的喜好布置桌面。歡迎分享你喜歡的壁紙，一起豐富碼鏡社群。",
   "links": {
-    "appStore": "https://apps.apple.com/us/app/%E7%A0%81%E9%95%9C/id6751061329?mt=12",
     "email": "codelume@163.com",
     "douyin": "https://v.douyin.com/z7E8UAlUsfU/"
   },
   "labels": {
-    "appStore": "碼鏡 App Store",
     "email": "聯絡碼鏡",
     "douyin": "碼鏡抖音",
     "douyinId": "抖音号：22501983627"

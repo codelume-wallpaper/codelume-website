@@ -18,25 +18,7 @@
     "title": "Un nouveau fond d’écran pour votre Mac",
     "subtitle": "Utilisez les fonds d’écran natifs du Mac ou découvrez les formats supplémentaires de Codelume.",
     "cta": {
-      "download": "Télécharger Codelume pour Mac",
-      "appStore": "Version App Store",
-      "website": "Version du site officiel",
-      "comingSoon": "Bientôt disponible",
-      "appStoreDescription": "Installez et mettez à jour Codelume via le Mac App Store. Cette version inclut la plupart des fonctionnalités.",
-      "websiteDescription": "Téléchargez le programme d’installation pour définir aussi des fonds d’écran natifs de macOS et des fonds d’écran de verrouillage.",
-      "openAppStore": "Ouvrir dans l’App Store",
-      "existingAccount": "La version 6.0 du site utilise Connexion avec Apple. Les comptes et les accès Pro des versions précédentes n’ont pas été transférés.",
-      "websiteReason": "Ces deux fonctions nécessitent un accès à des composants système que le bac à sable de la version App Store ne permet pas. Dans la version du site officiel, macOS gère les fonds d’écran natifs pour des transitions plus fluides. Choisissez la version adaptée à vos besoins.",
-      "pro": {
-        "title": "Pro pour la version du site",
-        "price": "38 CNY, paiement unique",
-        "features": "Débloquez plusieurs écrans, les fonds d’écran Web et de scènes, ainsi que les fonds d’écran et économiseurs natifs de macOS.",
-        "purchase": "Achetez Pro dans la version de Codelume du site. Le montant final s’affiche au paiement."
-      },
-      "systemRequirements": {
-        "title": "Configuration requise",
-        "description": "La version du site nécessite macOS 14.6 ou ultérieur et prend en charge les Mac avec puce Apple ou processeur Intel. Les fonds d’écran natifs et les fonds d’écran de l’économiseur d’écran nécessitent macOS 26 ou ultérieur."
-      }
+      "download": "Télécharger Codelume pour Mac"
     },
     "editionNote": "La version standard est gratuite. Pro offre plus de fonctionnalités.",
     "video": {
@@ -85,7 +67,7 @@
         "title": "Fonds d’écran vidéo",
         "performance": "Faible charge de décodage, expérience optimale",
         "description": "Lisez une vidéo en boucle sur le bureau ou convertissez-la en fond d’écran lié à l’économiseur d’écran.",
-        "requirements": "La transition nécessite la version du site officiel et macOS 26 ou ultérieur.",
+        "requirements": "La transition nécessite macOS 26 ou ultérieur.",
         "example": "猫伴画姬"
       },
       "scene": {
@@ -114,7 +96,7 @@
           "Prend en charge les images fixes et la transition depuis un économiseur d’écran animé.",
           "Au retour sur le bureau, le mouvement ralentit jusqu’à s’arrêter."
         ],
-        "availability": "Disponible uniquement dans la version du site officiel, sous macOS 26 ou ultérieur. Le bac à sable de la version App Store empêche cette fonction.",
+        "availability": "Nécessite macOS 26 ou une version ultérieure.",
         "demo": "Aperçu simulé"
       },
       "codelume": {
@@ -182,8 +164,7 @@
       },
       "mainDisplayOnly": "Écran principal uniquement",
       "libraryLimit": "Jusqu’à 20 fonds d’écran",
-      "basicTypesOnly": "Images fixes et vidéos uniquement",
-      "websiteOnly": "Version du site uniquement"
+      "basicTypesOnly": "Images fixes et vidéos uniquement"
     }
   },
   "workshop": {
@@ -226,7 +207,6 @@
     },
     "tagline": "Conçu pour macOS",
     "labels": {
-      "appStore": "Codelume sur l’App Store",
       "email": "Contacter Codelume",
       "douyin": "Codelume sur Douyin"
     }

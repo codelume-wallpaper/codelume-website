@@ -1,8 +1,11 @@
 {
-  "latest": "Neueste Version",
+  "installerTitle": "Installationsdatei für macOS",
   "downloadVersion": "v{{version}} herunterladen",
   "downloadDmg": "DMG herunterladen",
   "universal": "Für Macs mit Apple Chip und Intel",
+  "macosRequirements": "Erfordert macOS 14.6 oder neuer. Native Systemhintergründe und Bildschirmschoner-Hintergründe benötigen macOS 26 oder neuer.",
+  "macosTesting": "Wir empfehlen die aktuelle macOS-Version. Ältere macOS-Versionen testen wir nicht gesondert.",
+  "supportEmail": "Bei Problemen erreichst du uns unter <contact>{{email}}</contact>.",
   "releaseNotes": "Versionshinweise",
   "history": "Frühere Versionen",
   "loading": "Neueste Version wird gesucht…",

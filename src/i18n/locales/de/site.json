@@ -18,25 +18,7 @@
     "title": "Ein neues Wallpaper für deinen Mac",
     "subtitle": "Verwende native Mac-Wallpaper oder entdecke weitere Wallpaper-Formate in Codelume.",
     "cta": {
-      "download": "Codelume für Mac laden",
-      "appStore": "App-Store-Version",
-      "website": "Website-Version",
-      "comingSoon": "Bald verfügbar",
-      "appStoreDescription": "Installation und Updates laufen über den Mac App Store. Diese Version bietet die meisten Codelume-Funktionen.",
-      "websiteDescription": "Mit dem direkten Download kannst du auch native macOS-Wallpaper und Sperrbildschirm-Wallpaper festlegen.",
-      "openAppStore": "Im App Store öffnen",
-      "existingAccount": "Die Website-Version 6.0 verwendet „Mit Apple anmelden“. Konten und Pro-Zugriff früherer Versionen wurden nicht übernommen.",
-      "websiteReason": "Beide Funktionen benötigen Zugriff auf Systemkomponenten, den die Sandbox der App-Store-Version nicht erlaubt. In der Website-Version verwaltet macOS die nativen Wallpaper, damit die Übergänge flüssiger sind. Wähle die Version, die zu deinen Anforderungen passt.",
-      "pro": {
-        "title": "Pro für die Website-Version",
-        "price": "38 CNY, einmaliger Kauf",
-        "features": "Schalte mehrere Displays, Web- und Szenen-Wallpaper sowie native macOS-Wallpaper und Bildschirmschoner frei.",
-        "purchase": "Kaufe Pro in der Website-Version von Codelume. Den endgültigen Betrag siehst du beim Bezahlen."
-      },
-      "systemRequirements": {
-        "title": "Systemanforderungen",
-        "description": "Die Website-Version benötigt macOS 14.6 oder neuer und unterstützt Macs mit Apple-Chip oder Intel-Prozessor. Native System-Wallpaper und Bildschirmschoner-Wallpaper benötigen macOS 26 oder neuer."
-      }
+      "download": "Codelume für Mac laden"
     },
     "editionNote": "Die Standardversion ist kostenlos. Pro bietet weitere Funktionen.",
     "video": {
@@ -85,7 +67,7 @@
         "title": "Video-Wallpaper",
         "performance": "Geringe Decoderlast, bestes Erlebnis",
         "description": "Spiele ein Video in Endlosschleife auf dem Schreibtisch ab oder wandle es in ein Wallpaper mit Bildschirmschoner-Übergang um.",
-        "requirements": "Der Übergang erfordert die Website-Version und macOS 26 oder neuer.",
+        "requirements": "Der Übergang erfordert macOS 26 oder neuer.",
         "example": "猫伴画姬"
       },
       "scene": {
@@ -114,7 +96,7 @@
           "Unterstützt Standbilder und Übergänge aus dem animierten Bildschirmschoner.",
           "Bei der Rückkehr zum Desktop kommt die Bewegung langsam zum Stillstand."
         ],
-        "availability": "Nur in der Website-Version ab macOS 26 verfügbar. Die Sandbox der App-Store-Version lässt diese Funktion nicht zu.",
+        "availability": "Erfordert macOS 26 oder neuer.",
         "demo": "Simulierte Vorschau"
       },
       "codelume": {
@@ -182,8 +164,7 @@
       },
       "mainDisplayOnly": "Nur Hauptbildschirm",
       "libraryLimit": "Bis zu 20 Wallpaper",
-      "basicTypesOnly": "Nur Standbilder und Videos",
-      "websiteOnly": "Nur Website-Version"
+      "basicTypesOnly": "Nur Standbilder und Videos"
     }
   },
   "workshop": {
@@ -226,7 +207,6 @@
     },
     "tagline": "Für macOS entwickelt",
     "labels": {
-      "appStore": "Codelume im App Store",
       "email": "Codelume per E-Mail kontaktieren",
       "douyin": "Codelume auf Douyin"
     }

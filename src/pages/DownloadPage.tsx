@@ -1,13 +1,11 @@
 import { useEffect, useRef, useState } from 'react'
-import { ArrowDownToLine, ArrowLeft, ArrowUpRight, ChevronDown, History, Info, Store } from 'lucide-react'
+import { ArrowDownToLine, ArrowLeft, ChevronDown, Cpu, HardDriveDownload, History, Mail } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import { useTranslation } from 'react-i18next'
+import { Trans, useTranslation } from 'react-i18next'
 import { AppWaveBackground } from '@/components/AppWaveBackground'
 import { Footer } from '@/components/Footer'
 import { LanguageSwitcher } from '@/components/LanguageSwitcher'
 import { ReleaseNotes } from '@/components/ReleaseNotes'
-import { CODELUME_MAC_APP_STORE_URL } from '@/constants/externalLinks'
-import { legalDocPath } from '@/constants/legalDocs'
 import { formatReleaseSize, RELEASES_API, type Release } from '@/lib/releases'
 
 function HistoricalRelease({ release }: { release: Release }) {
@@ -37,6 +35,7 @@ function HistoricalRelease({ release }: { release: Release }) {
 
 export function DownloadPage() {
   const { t, i18n } = useTranslation(['hero', 'help', 'download'])
+  const email = t('footer:links.email')
   const heading = useRef<HTMLHeadingElement>(null)
   const [releases, setReleases] = useState<Release[] | null>(null)
   const [failed, setFailed] = useState(false)
@@ -83,25 +82,26 @@ export function DownloadPage() {
           <h1 ref={heading} tabIndex={-1} className="text-2xl font-semibold leading-snug tracking-tight outline-none sm:text-3xl">{t('hero:cta.download')}</h1>
         </div>
 
-        <div className="grid gap-4 md:grid-cols-[1.35fr_1fr]">
-          <article className="flex flex-col rounded-2xl border card-surface-peach p-6 text-[#302018] shadow-sm sm:p-8">
-            <div className="flex flex-wrap items-center gap-3">
-              <h2 className="text-xl font-semibold tracking-tight">{t('hero:cta.website')}</h2>
-              {latest && <span className="rounded-full bg-[#fae3d3] px-3 py-1 text-sm font-medium text-[#834022]">{t('download:latest')}</span>}
+        <article className="card-surface-peach grid overflow-hidden rounded-2xl border text-[#302018] shadow-sm lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)]">
+          <div className="min-w-0 self-center px-5 py-6 sm:px-8 sm:py-8">
+            <div className="flex items-center gap-3">
+              <HardDriveDownload size={25} strokeWidth={1.6} aria-hidden="true" className="shrink-0 text-[#8d4125]" />
+              <h2 className="text-2xl font-semibold tracking-tight">{t('download:installerTitle')}</h2>
             </div>
-            <p className="mt-3 text-base leading-relaxed text-[#645247]">{t('hero:cta.websiteDescription')}</p>
-            {latest && (
-              <p className="mb-5 mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-sm text-[#645247]">
-                <span className="font-semibold text-[#302018]">v{latest.version}</span>
-                <time dateTime={latest.publishedAt}>{new Intl.DateTimeFormat(i18n.language, { dateStyle: 'medium' }).format(new Date(latest.publishedAt))}</time>
-                <span>{formatReleaseSize(latest.size, i18n.language)} · DMG</span>
-              </p>
-            )}
-            <div className="mt-auto pt-3" aria-live="polite">
+            <div className="mt-5" aria-live="polite">
               {latest ? (
-                <a href={latest.url} className="inline-flex min-h-12 items-center gap-2 rounded-full bg-[#8d4125] px-6 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#73341e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
-                  <ArrowDownToLine size={17} aria-hidden="true" /> {t('download:downloadVersion', { version: latest.version })}
-                </a>
+                <div className="flex flex-wrap items-center gap-x-4 gap-y-3">
+                  <a href={latest.url} className="inline-flex min-h-12 items-center gap-2 rounded-full bg-[#8d4125] px-5 py-3 text-sm font-semibold text-white transition-colors hover:bg-[#73341e] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
+                    <ArrowDownToLine size={17} aria-hidden="true" /> {t('download:downloadDmg')}
+                  </a>
+                  <div className="min-w-0 text-sm leading-5 text-[#645247]">
+                    <p className="font-semibold tabular-nums text-[#302018]">v{latest.version}</p>
+                    <p className="flex flex-wrap items-baseline gap-x-2">
+                      <time dateTime={latest.publishedAt}>{new Intl.DateTimeFormat(i18n.language, { dateStyle: 'medium' }).format(new Date(latest.publishedAt))}</time>
+                      <span className="whitespace-nowrap">· {formatReleaseSize(latest.size, i18n.language)}</span>
+                    </p>
+                  </div>
+                </div>
               ) : failed ? (
                 <div className="text-sm text-[#645247]">
                   <p>{t('download:loadError')}</p>
@@ -109,20 +109,26 @@ export function DownloadPage() {
                 </div>
               ) : <p className="min-h-12 text-sm text-[#645247]">{t(releases === null ? 'download:loading' : 'download:empty')}</p>}
             </div>
-            <p className="mt-4 text-sm leading-relaxed text-[#645247]">{t('download:universal')}</p>
-          </article>
+          </div>
 
-          <article className="flex flex-col rounded-2xl border card-surface-lavender p-6 text-[#221a31] shadow-sm sm:p-8">
-            <div className="flex items-center gap-3">
-              <Store size={22} className="text-[#61359c]" aria-hidden="true" />
-              <h2 className="text-xl font-semibold tracking-tight">{t('hero:cta.appStore')}</h2>
+          <div className="min-w-0 border-t border-[#eaded4] bg-white/50 px-5 py-5 text-sm leading-relaxed text-[#645247] sm:px-8 sm:py-6 lg:border-l lg:border-t-0">
+            <div className="flex items-start gap-2.5">
+              <Cpu size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+              <div className="min-w-0">
+                <p className="font-semibold text-[#302018]">{t('download:universal')}</p>
+                <p className="mt-1">{t('download:macosRequirements')}</p>
+                <p className="mt-1">{t('download:macosTesting')}</p>
+              </div>
             </div>
-            <p className="mb-6 mt-3 text-base leading-relaxed text-[#554962]">{t('hero:cta.appStoreDescription')}</p>
-            <a href={CODELUME_MAC_APP_STORE_URL} target="_blank" rel="noreferrer" className="mt-auto inline-flex min-h-12 w-fit items-center gap-2 rounded-full border border-[#cfc0e4] md:mb-9 px-5 py-3 text-sm font-semibold text-[#61359c] transition-colors hover:bg-[#e7d9fb] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4">
-              {t('hero:cta.openAppStore')} <ArrowUpRight size={16} aria-hidden="true" />
-            </a>
-          </article>
-        </div>
+            <div className="mt-3 flex items-start gap-2.5">
+              <Mail size={17} aria-hidden="true" className="mt-0.5 shrink-0" />
+              <p>
+                <Trans ns="download" i18nKey="supportEmail" values={{ email }}
+                  components={{ contact: <a href={`mailto:${email}`} className="break-words font-medium text-[#804023] underline underline-offset-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" /> }} />
+              </p>
+            </div>
+          </div>
+        </article>
 
         {latest && (
           <section aria-labelledby="release-notes" className="mt-6 rounded-2xl border border-border bg-background p-6 sm:p-8">
@@ -145,24 +151,6 @@ export function DownloadPage() {
             <ul id="release-history" hidden={!showHistory} className="border-t border-border">{showHistory && history.map((release) => <HistoricalRelease key={release.version} release={release} />)}</ul>
           </section>
         )}
-
-        <div className="mt-6 grid gap-4 md:grid-cols-2">
-          <section aria-labelledby="download-system-requirements" className="rounded-2xl border border-border bg-background p-6 text-sm leading-relaxed">
-            <h2 id="download-system-requirements" className="text-base font-semibold">{t('hero:cta.systemRequirements.title')}</h2>
-            <p className="mt-3 text-sm text-foreground/75">{t('hero:cta.systemRequirements.description')}</p>
-            <p className="mt-3 text-sm text-foreground/75">{t('hero:cta.websiteReason')}</p>
-          </section>
-          <section aria-labelledby="download-pro" className="rounded-2xl border border-border bg-background p-6 text-sm leading-relaxed">
-            <h2 id="download-pro" className="text-base font-semibold">{t('hero:cta.pro.title')}</h2>
-            <p className="mt-3 text-sm font-medium">{t('hero:cta.pro.price')}</p>
-            <p className="mt-2 text-sm text-foreground/75">{t('hero:cta.pro.features')}</p>
-            <p className="mt-2 text-sm text-foreground/75">{t('hero:cta.pro.purchase')}</p>
-            <Link to={legalDocPath('refund')} className="mt-3 inline-block underline underline-offset-4">{t('common:refundPolicy')}</Link>
-          </section>
-        </div>
-        <p className="mt-5 flex items-start gap-2 text-sm leading-relaxed text-muted-foreground">
-          <Info size={16} className="mt-0.5 shrink-0" aria-hidden="true" /><span>{t('hero:cta.existingAccount')}</span>
-        </p>
       </main>
       <Footer />
     </div>
