@@ -28,14 +28,9 @@ export function SystemWallpapers() {
   return (
     <section aria-labelledby="system-wallpapers-title" className="px-5 py-14 sm:px-8 sm:py-20 lg:px-12">
       <div id="system-wallpapers" className="mx-auto max-w-6xl scroll-mt-28">
-        <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-baseline sm:justify-between sm:gap-6">
-          <h2 id="system-wallpapers-title" className="shrink-0 text-2xl font-semibold tracking-tight sm:text-3xl">
-            {t('systemWallpapers.title')}
-          </h2>
-          <p className="text-sm leading-relaxed text-[color:var(--brand-gradient-start)] sm:text-right">
-            {t('systemWallpapers.subtitle')}
-          </p>
-        </div>
+        <h2 id="system-wallpapers-title" className="mb-5 text-2xl font-semibold tracking-tight sm:text-3xl">
+          {t('systemWallpapers.title')}
+        </h2>
 
         <div className="grid grid-cols-1 gap-x-6 gap-y-8 md:grid-cols-2">
           {wallpaperTypes.map((type, index) => {

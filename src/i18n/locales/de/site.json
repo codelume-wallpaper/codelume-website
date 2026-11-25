@@ -12,7 +12,8 @@
     "about": "Wallpaper & Zusammenarbeit",
     "workshop": "Codelume Studio",
     "help": "Hilfe",
-    "appPreview": "Vorschau"
+    "appPreview": "App-Vorschau",
+    "plans": "Versionen und Preise"
   },
   "hero": {
     "title": "Ein neues Wallpaper für deinen Mac",
@@ -20,7 +21,7 @@
     "cta": {
       "download": "Codelume für Mac laden"
     },
-    "editionNote": "Die Standardversion ist kostenlos. Pro bietet weitere Funktionen.",
+    "editionNote": "Die lokale Wiedergabe ist kostenlos. Die tägliche Auswahl an Videohintergründen kannst du gratis herunterladen. Für andere Downloads aus dem Katalog brauchst du Pro.",
     "video": {
       "unsupported": "Dein Browser unterstützt keine Videos.",
       "select": "Wallpaper {{number}} anzeigen"
@@ -28,36 +29,8 @@
     "wallpaperSubmissionNote": "Ausgewählte Wallpaper aus der Community können auf unserer Startseite gezeigt werden."
   },
   "portfolio": {
-    "badge": "Codelume",
-    "latestProject": "Die Darstellung kann von der aktuellen Version abweichen.",
-    "featured": {
-      "title": "Codelume",
-      "details": {
-        "industry": {
-          "label": "Bildschirmverwaltung",
-          "value": "Mehrere Bildschirme, individuelle Steuerung, Pause und Stummschaltung"
-        },
-        "style": {
-          "label": "Lokale Wallpaper",
-          "value": "Offline-Export, Import und Bearbeitung"
-        },
-        "tone": {
-          "label": "Wallpaper-Galerie",
-          "value": "Stöbern, herunterladen und eigene Werke einreichen"
-        },
-        "format": {
-          "label": "Bildschirmschoner",
-          "value": "Eigene Bildschirmschoner und Wiedergabe auf dem Sperrbildschirm"
-        },
-        "settings": {
-          "label": "Einstellungen",
-          "value": "Sprache, Design, Autostart und Wiedergabe"
-        }
-      }
-    },
     "systemWallpapers": {
-      "title": "Typen",
-      "subtitle": "Von Standbildern bis zu interaktiven Webseiten bietet Codelume verschiedene Möglichkeiten, deinen Schreibtisch zu gestalten. Wähle einen Wallpaper-Typ, der zur Leistung deines Macs passt.",
+      "title": "Hintergrundtypen",
       "still": {
         "title": "Statische Wallpaper",
         "performance": "Beste Leistung, ohne zusätzlichen Ressourcenverbrauch",
@@ -87,8 +60,7 @@
       }
     },
     "wallpaperModes": {
-      "title": "Modi",
-      "subtitle": "Codelume unterstützt zwei Wallpaper-Modi. Vergleiche sie unten.",
+      "title": "Anzeigemodi",
       "native": {
         "title": "System-Wallpaper",
         "points": [
@@ -109,7 +81,7 @@
       }
     },
     "community": {
-      "title": "Open Source",
+      "title": "Projekte und Quellcode",
       "projects": "Codelume-Projekte",
       "closedSource": "Quellcode unveröffentlicht",
       "openSourceDescription": "Wir veröffentlichen den Quellcode der Codelume-Projekte nach und nach. Alle sind eingeladen, den Code zu prüfen und Rückmeldung zu geben.",
@@ -129,42 +101,19 @@
       }
     },
     "pricing": {
-      "title": "Versionen",
-      "subtitle": "Pro-Käufe unterstützen die Wallpaper-Speicherung, die Backend-Dienste und die Weiterentwicklung von Codelume.",
+      "title": "Preise",
       "standard": {
         "title": "Standard",
-        "price": "Kostenlos, ohne Wasserzeichen und Werbung. Alles für den täglichen Wallpaper-Wechsel."
+        "price": "Kostenlos",
+        "description": "Alle App-Funktionen sind kostenlos. Vom Server kannst du nur die Hintergrundbilder der Gratisliste herunterladen."
       },
       "pro": {
         "title": "Pro",
-        "price": "Einmal kaufen und alle Funktionen von Codelume freischalten. Den Preis findest du auf der Kaufseite."
+        "billing": "Einmalkauf",
+        "description": "Lade jedes Hintergrundbild vom Server herunter.",
+        "checkoutNote": "Der endgültige Preis richtet sich nach deiner Rechnungsadresse."
       },
-      "groups": {
-        "modes": "Wallpaper-Modi",
-        "types": "Wallpaper-Typen",
-        "wallpaperFeatures": "Wallpaper-Funktionen"
-      },
-      "supported": "Unterstützt",
-      "partiallySupported": "Teilweise unterstützt",
-      "unsupported": "Nicht unterstützt",
-      "features": {
-        "displays": "Wallpaper auf mehreren Bildschirmen",
-        "lockScreen": "Sperrbildschirm-Wallpaper",
-        "playlists": "Wiedergabelisten",
-        "library": "Lokale Wallpaper-Bibliothek",
-        "download": "Wallpaper herunterladen",
-        "import": "Wallpaper importieren",
-        "upload": "Wallpaper hochladen",
-        "export": "Wallpaper exportieren",
-        "menuBar": "Menüleistenverwaltung",
-        "metrics": "Systemwerte",
-        "frameRate": "Bildratenlimit für animierte Wallpaper ohne Video",
-        "storage": "Speicherverwaltung",
-        "permissions": "Berechtigungsverwaltung"
-      },
-      "mainDisplayOnly": "Nur Hauptbildschirm",
-      "libraryLimit": "Bis zu 20 Wallpaper",
-      "basicTypesOnly": "Nur Standbilder und Videos"
+      "support": "Die Einnahmen aus Pro finanzieren vor allem den Serverbetrieb und unterstützen die Weiterentwicklung von Codelume."
     }
   },
   "workshop": {

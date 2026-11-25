@@ -1,34 +1,6 @@
 {
-  "badge": "Codelume",
-  "latestProject": "最新版の画面と異なる場合があります",
-  "featured": {
-    "title": "Codelume",
-    "details": {
-      "industry": {
-        "label": "画面管理",
-        "value": "マルチディスプレイ再生/個別管理/一時停止/ミュート"
-      },
-      "style": {
-        "label": "ローカル壁紙",
-        "value": "オフライン書き出し/インポート/再編集"
-      },
-      "tone": {
-        "label": "壁紙センター",
-        "value": "カテゴリ検索/認証付きダウンロード/素材投稿"
-      },
-      "format": {
-        "label": "スクリーンセーバー",
-        "value": "カスタムスクリーンセーバー/ロック画面再生"
-      },
-      "settings": {
-        "label": "環境設定",
-        "value": "言語/テーマ/起動時自動開始/再生コントロール"
-      }
-    }
-  },
   "systemWallpapers": {
-    "title": "種類",
-    "subtitle": "静止画像から操作できるウェブページまで、Codelumeは多彩な壁紙でデスクトップの楽しみ方を広げます。お使いのMacの性能に合った壁紙の種類を選びましょう。",
+    "title": "壁紙の種類",
     "still": {
       "title": "静止画の壁紙",
       "performance": "最高のパフォーマンス、追加のリソース消費なし",
@@ -58,8 +30,7 @@
     }
   },
   "wallpaperModes": {
-    "title": "モード",
-    "subtitle": "Codelumeは2つの壁紙モードに対応しています。それぞれの違いを以下で比較できます。",
+    "title": "壁紙モード",
     "native": {
       "title": "システム壁紙",
       "points": [
@@ -80,7 +51,7 @@
     }
   },
   "community": {
-    "title": "オープンソース",
+    "title": "プロジェクトとソース公開状況",
     "projects": "Codelumeのプロジェクト",
     "closedSource": "ソース未公開",
     "openSourceDescription": "Codelumeの各プロジェクトのソースコードを順次公開します。コードの確認やご意見をお待ちしています。",
@@ -100,41 +71,18 @@
     }
   },
   "pricing": {
-    "title": "エディション",
-    "subtitle": "Proの購入は、壁紙の保存、バックエンドサービス、Codelumeの継続開発を支えます。",
+    "title": "料金",
     "standard": {
       "title": "通常版",
-      "price": "無料で、透かしや広告はありません。普段の壁紙の変更には通常版で十分です。"
+      "price": "無料",
+      "description": "アプリの全機能は無料で使えます。サーバーからダウンロードできるのは無料リストの壁紙のみです。"
     },
     "pro": {
       "title": "Pro",
-      "price": "買い切りでCodelumeのすべての機能を使えます。価格は購入画面でご確認ください。"
+      "billing": "買い切り",
+      "description": "サーバー上のすべての壁紙をダウンロードできます。",
+      "checkoutNote": "最終価格はお支払い先の地域によって決まります。"
     },
-    "groups": {
-      "modes": "壁紙モード",
-      "types": "壁紙の種類",
-      "wallpaperFeatures": "壁紙の機能"
-    },
-    "supported": "対応",
-    "partiallySupported": "一部対応",
-    "unsupported": "非対応",
-    "features": {
-      "displays": "マルチディスプレイ壁紙",
-      "lockScreen": "ロック画面の壁紙",
-      "playlists": "プレイリスト",
-      "library": "ローカル壁紙ライブラリ",
-      "download": "壁紙のダウンロード",
-      "import": "壁紙の読み込み",
-      "upload": "壁紙のアップロード",
-      "export": "壁紙の書き出し",
-      "menuBar": "メニューバー管理",
-      "metrics": "システム指標",
-      "frameRate": "動画以外の動く壁紙のフレームレート制限",
-      "storage": "ストレージ管理",
-      "permissions": "権限管理"
-    },
-    "mainDisplayOnly": "メインディスプレイのみ",
-    "libraryLimit": "最大20枚",
-    "basicTypesOnly": "静止画と動画のみ"
+    "support": "Pro の売上は主にサーバーの維持に充てられ、Codelume の継続的な開発も支えています。"
   }
 }

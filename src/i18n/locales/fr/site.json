@@ -12,7 +12,8 @@
     "about": "Fonds d’écran et collaboration",
     "workshop": "Codelume Studio",
     "help": "Aide",
-    "appPreview": "Aperçu"
+    "appPreview": "Aperçu de l’application",
+    "plans": "Offres et tarifs"
   },
   "hero": {
     "title": "Un nouveau fond d’écran pour votre Mac",
@@ -20,7 +21,7 @@
     "cta": {
       "download": "Télécharger Codelume pour Mac"
     },
-    "editionNote": "La version standard est gratuite. Pro offre plus de fonctionnalités.",
+    "editionNote": "La lecture locale est gratuite. Téléchargez gratuitement les fonds d’écran vidéo du jour. Pro permet de télécharger les autres fonds du catalogue.",
     "video": {
       "unsupported": "Votre navigateur ne prend pas en charge la vidéo.",
       "select": "Afficher le fond d’écran {{number}}"
@@ -28,36 +29,8 @@
     "wallpaperSubmissionNote": "Les fonds d’écran sélectionnés parmi les contributions de la communauté peuvent être mis à l’honneur sur notre page d’accueil."
   },
   "portfolio": {
-    "badge": "Codelume",
-    "latestProject": "La présentation peut différer de la version actuelle.",
-    "featured": {
-      "title": "Codelume",
-      "details": {
-        "industry": {
-          "label": "Gestion des écrans",
-          "value": "Lecture multi-écran, réglages par écran, pause et sourdine"
-        },
-        "style": {
-          "label": "Fonds d’écran locaux",
-          "value": "Export hors ligne, import et modification"
-        },
-        "tone": {
-          "label": "Galerie",
-          "value": "Parcourir, télécharger et proposer des créations"
-        },
-        "format": {
-          "label": "Économiseur d’écran",
-          "value": "Économiseurs personnalisés et lecture sur l’écran verrouillé"
-        },
-        "settings": {
-          "label": "Préférences",
-          "value": "Langue, thème, lancement au démarrage et lecture"
-        }
-      }
-    },
     "systemWallpapers": {
-      "title": "Types",
-      "subtitle": "Des images fixes aux pages web interactives, Codelume offre plusieurs façons de personnaliser votre bureau. Choisissez un type de fond d’écran adapté aux performances de votre Mac.",
+      "title": "Types de fonds d’écran",
       "still": {
         "title": "Fonds d’écran fixes",
         "performance": "Performances optimales, sans consommation de ressources supplémentaire",
@@ -87,8 +60,7 @@
       }
     },
     "wallpaperModes": {
-      "title": "Modes",
-      "subtitle": "Codelume propose deux modes de fond d’écran. Comparez-les ci-dessous.",
+      "title": "Modes d’affichage",
       "native": {
         "title": "Fonds d’écran système",
         "points": [
@@ -109,7 +81,7 @@
       }
     },
     "community": {
-      "title": "Open source",
+      "title": "Projets et code source",
       "projects": "Projets Codelume",
       "closedSource": "Source non publiée",
       "openSourceDescription": "Nous publierons progressivement le code source des projets Codelume. Chacun pourra le consulter, l’examiner et nous faire part de ses remarques.",
@@ -129,42 +101,19 @@
       }
     },
     "pricing": {
-      "title": "Éditions",
-      "subtitle": "Les achats Pro financent le stockage des fonds d’écran, les services backend et le développement de Codelume.",
+      "title": "Tarifs",
       "standard": {
         "title": "Standard",
-        "price": "Gratuit, sans filigrane ni publicité. Tout le nécessaire pour changer de fond d’écran au quotidien."
+        "price": "Gratuit",
+        "description": "Toutes les fonctionnalités sont gratuites. Les téléchargements sont limités aux fonds d’écran de la liste gratuite."
       },
       "pro": {
         "title": "Pro",
-        "price": "Un achat unique donne accès à toutes les fonctionnalités de Codelume. Consultez le prix sur l’écran d’achat."
+        "billing": "Achat unique",
+        "description": "Téléchargez tous les fonds d’écran du serveur.",
+        "checkoutNote": "Le prix final dépend de votre adresse de facturation."
       },
-      "groups": {
-        "modes": "Modes de fond d’écran",
-        "types": "Types de fonds d’écran",
-        "wallpaperFeatures": "Fonctions de fond d’écran"
-      },
-      "supported": "Pris en charge",
-      "partiallySupported": "Partiellement pris en charge",
-      "unsupported": "Non pris en charge",
-      "features": {
-        "displays": "Fonds d’écran multi-écrans",
-        "lockScreen": "Fonds d’écran de verrouillage",
-        "playlists": "Listes de lecture",
-        "library": "Bibliothèque locale",
-        "download": "Télécharger des fonds d’écran",
-        "import": "Importer des fonds d’écran",
-        "upload": "Publier des fonds d’écran",
-        "export": "Exporter des fonds d’écran",
-        "menuBar": "Gestion de la barre des menus",
-        "metrics": "Indicateurs système",
-        "frameRate": "Limite d’images par seconde pour les fonds animés hors vidéo",
-        "storage": "Gestion du stockage",
-        "permissions": "Gestion des autorisations"
-      },
-      "mainDisplayOnly": "Écran principal uniquement",
-      "libraryLimit": "Jusqu’à 20 fonds d’écran",
-      "basicTypesOnly": "Images fixes et vidéos uniquement"
+      "support": "Les achats de Pro financent principalement l’entretien des serveurs et nous aident à poursuivre le développement de Codelume."
     }
   },
   "workshop": {

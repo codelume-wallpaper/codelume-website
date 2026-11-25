@@ -120,7 +120,7 @@ export function Hero() {
                 href="#app-preview"
                 className="text-white hover:text-white/80 font-medium gentle-animation hover:scale-105"
               >
-                {t('navigation:brand')}
+                {t('navigation:appPreview')}
               </a>
               <a
                 href="#wallpaper-modes"
@@ -144,7 +144,7 @@ export function Hero() {
                 href="#pricing"
                 className="text-white hover:text-white/80 font-medium gentle-animation hover:scale-105"
               >
-                {t('portfolio:pricing.title')}
+                {t('navigation:plans')}
               </a>
             </div>
 
@@ -211,7 +211,7 @@ export function Hero() {
                 className="mobile-menu-link px-4 py-3 hover:text-white/80 hover:bg-white/10 rounded-lg gentle-animation font-medium text-lg active:bg-white/20"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                {t('navigation:brand')}
+                {t('navigation:appPreview')}
               </a>
               <a
                 href="#wallpaper-modes"
@@ -239,7 +239,7 @@ export function Hero() {
                 className="mobile-menu-link px-4 py-3 hover:text-white/80 hover:bg-white/10 rounded-lg gentle-animation font-medium text-lg active:bg-white/20"
                 onClick={() => setIsMobileMenuOpen(false)}
               >
-                {t('portfolio:pricing.title')}
+                {t('navigation:plans')}
               </a>
             </div>
           </div>

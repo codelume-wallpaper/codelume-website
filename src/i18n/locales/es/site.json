@@ -12,7 +12,8 @@
     "about": "Fondos y colaboración",
     "workshop": "Codelume Studio",
     "help": "Ayuda",
-    "appPreview": "Vista previa"
+    "appPreview": "Vista previa",
+    "plans": "Planes y precios"
   },
   "hero": {
     "title": "Un nuevo fondo de pantalla para tu Mac",
@@ -20,7 +21,7 @@
     "cta": {
       "download": "Descargar Codelume para Mac"
     },
-    "editionNote": "La versión estándar es gratuita. Pro ofrece más funciones.",
+    "editionNote": "La reproducción local es gratuita. Puedes descargar gratis los fondos de vídeo del día. Para descargar los demás fondos del catálogo necesitas Pro.",
     "video": {
       "unsupported": "Tu navegador no admite vídeos.",
       "select": "Mostrar el fondo {{number}}"
@@ -28,36 +29,8 @@
     "wallpaperSubmissionNote": "Los fondos seleccionados entre los aportes de la comunidad pueden aparecer en nuestra página de inicio."
   },
   "portfolio": {
-    "badge": "Codelume",
-    "latestProject": "La presentación puede variar respecto a la versión actual.",
-    "featured": {
-      "title": "Codelume",
-      "details": {
-        "industry": {
-          "label": "Gestión de pantallas",
-          "value": "Reproducción multipantalla, controles por pantalla, pausa y silencio"
-        },
-        "style": {
-          "label": "Fondos locales",
-          "value": "Exportación sin conexión, importación y edición"
-        },
-        "tone": {
-          "label": "Galería de fondos",
-          "value": "Explora, descarga y comparte tus creaciones"
-        },
-        "format": {
-          "label": "Salvapantallas",
-          "value": "Salvapantallas personalizados y reproducción en la pantalla de bloqueo"
-        },
-        "settings": {
-          "label": "Preferencias",
-          "value": "Idioma, tema, inicio automático y reproducción"
-        }
-      }
-    },
     "systemWallpapers": {
-      "title": "Tipos",
-      "subtitle": "Desde imágenes estáticas hasta páginas web interactivas, Codelume ofrece distintas formas de personalizar tu escritorio. Elige un tipo de fondo que se adapte al rendimiento de tu Mac.",
+      "title": "Tipos de fondo",
       "still": {
         "title": "Fondos estáticos",
         "performance": "Mejor rendimiento, sin consumo adicional de recursos",
@@ -87,8 +60,7 @@
       }
     },
     "wallpaperModes": {
-      "title": "Modos",
-      "subtitle": "Codelume admite dos modos de fondo de pantalla. Compáralos a continuación.",
+      "title": "Modos de visualización",
       "native": {
         "title": "Fondos de pantalla del sistema",
         "points": [
@@ -109,7 +81,7 @@
       }
     },
     "community": {
-      "title": "Código abierto",
+      "title": "Proyectos y código fuente",
       "projects": "Proyectos de Codelume",
       "closedSource": "Código no publicado",
       "openSourceDescription": "Publicaremos gradualmente el código fuente de los proyectos de Codelume. Cualquier persona podrá revisarlo y enviarnos sugerencias.",
@@ -129,42 +101,19 @@
       }
     },
     "pricing": {
-      "title": "Versiones",
-      "subtitle": "Las compras de Pro ayudan a financiar el almacenamiento de fondos, los servicios de servidor y el desarrollo de Codelume.",
+      "title": "Precios",
       "standard": {
         "title": "Estándar",
-        "price": "Gratis, sin marcas de agua ni anuncios. Todo lo necesario para cambiar de fondo a diario."
+        "price": "Gratis",
+        "description": "Todas las funciones son gratuitas y solo puedes descargar del servidor los fondos de la lista gratuita."
       },
       "pro": {
         "title": "Pro",
-        "price": "Desbloquea todas las funciones de Codelume con un solo pago. Consulta el precio en la pantalla de compra."
+        "billing": "Pago único",
+        "description": "Puedes descargar cualquier fondo de pantalla del servidor.",
+        "checkoutNote": "El precio final depende de tu región de facturación."
       },
-      "groups": {
-        "modes": "Modos de fondo",
-        "types": "Tipos de fondos",
-        "wallpaperFeatures": "Funciones de fondos"
-      },
-      "supported": "Compatible",
-      "partiallySupported": "Compatible en parte",
-      "unsupported": "No compatible",
-      "features": {
-        "displays": "Fondos en varias pantallas",
-        "lockScreen": "Fondos de la pantalla de bloqueo",
-        "playlists": "Listas de reproducción",
-        "library": "Biblioteca local",
-        "download": "Descargar fondos",
-        "import": "Importar fondos",
-        "upload": "Subir fondos",
-        "export": "Exportar fondos",
-        "menuBar": "Gestión de la barra de menús",
-        "metrics": "Indicadores del sistema",
-        "frameRate": "Límite de fotogramas para fondos animados que no son vídeos",
-        "storage": "Gestión del almacenamiento",
-        "permissions": "Gestión de permisos"
-      },
-      "mainDisplayOnly": "Solo pantalla principal",
-      "libraryLimit": "Hasta 20 fondos",
-      "basicTypesOnly": "Solo imágenes y vídeos"
+      "support": "Los ingresos de Pro cubren principalmente el mantenimiento de los servidores y nos ayudan a seguir desarrollando Codelume."
     }
   },
   "workshop": {

@@ -1,34 +1,6 @@
 {
-  "badge": "Codelume",
-  "latestProject": "May differ from the latest app UI",
-  "featured": {
-    "title": "Codelume",
-    "details": {
-      "industry": {
-        "label": "Display management",
-        "value": "Multi-display playback / Per-display controls / Pause / Mute"
-      },
-      "style": {
-        "label": "Local wallpapers",
-        "value": "Offline export / Import / Re-edit"
-      },
-      "tone": {
-        "label": "Wallpaper hub",
-        "value": "Category browse / Authenticated downloads / Creator submissions"
-      },
-      "format": {
-        "label": "Screensaver",
-        "value": "Custom screensavers / Lock-screen playback"
-      },
-      "settings": {
-        "label": "Preferences",
-        "value": "Language / Theme / Launch at startup / Playback controls"
-      }
-    }
-  },
   "systemWallpapers": {
-    "title": "Types",
-    "subtitle": "From still images to interactive web pages, Codelume brings different experiences to your desktop. Choose a wallpaper type that suits your Mac’s performance.",
+    "title": "Wallpaper types",
     "still": {
       "title": "Still wallpapers",
       "performance": "Best performance, no extra resource usage",
@@ -58,8 +30,7 @@
     }
   },
   "wallpaperModes": {
-    "title": "Modes",
-    "subtitle": "Codelume supports two wallpaper modes. See how they compare below.",
+    "title": "Wallpaper modes",
     "native": {
       "title": "System wallpapers",
       "points": [
@@ -80,7 +51,7 @@
     }
   },
   "community": {
-    "title": "Open source",
+    "title": "Projects & source availability",
     "projects": "Codelume projects",
     "closedSource": "Source not yet public",
     "openSourceDescription": "We’ll publish the source code for Codelume’s projects gradually. Everyone is welcome to review the code and share feedback.",
@@ -100,41 +71,18 @@
     }
   },
   "pricing": {
-    "title": "Editions",
-    "subtitle": "Pro purchases help fund wallpaper storage, backend services, and ongoing development.",
+    "title": "Pricing",
     "standard": {
       "title": "Standard",
-      "price": "Free to use, with no watermarks or ads. Everything you need to change your wallpaper day to day."
+      "price": "Free",
+      "description": "All app features are free, with server downloads limited to wallpapers on the free list."
     },
     "pro": {
       "title": "Pro",
-      "price": "Unlock the full Codelume experience with a one-time purchase. See the purchase screen for the price."
+      "billing": "One-time purchase",
+      "description": "Download any wallpaper from the server.",
+      "checkoutNote": "Final pricing depends on your billing location."
     },
-    "groups": {
-      "modes": "Wallpaper modes",
-      "types": "Wallpaper types",
-      "wallpaperFeatures": "Wallpaper features"
-    },
-    "supported": "Supported",
-    "partiallySupported": "Partially supported",
-    "unsupported": "Not supported",
-    "features": {
-      "displays": "Multi-display wallpapers",
-      "lockScreen": "Lock screen wallpapers",
-      "playlists": "Playlists",
-      "library": "Local wallpaper library",
-      "download": "Download wallpapers",
-      "import": "Import wallpapers",
-      "upload": "Upload wallpapers",
-      "export": "Export wallpapers",
-      "menuBar": "Menu bar management",
-      "metrics": "System metrics",
-      "frameRate": "Frame rate limit for non-video animated wallpapers",
-      "storage": "Storage management",
-      "permissions": "Permission management"
-    },
-    "mainDisplayOnly": "Main display only",
-    "libraryLimit": "Up to 20 wallpapers",
-    "basicTypesOnly": "Still and video only"
+    "support": "Pro purchases mainly cover server upkeep and help us keep developing Codelume."
   }
 }

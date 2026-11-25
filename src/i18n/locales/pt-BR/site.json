@@ -12,7 +12,8 @@
     "about": "Papéis de parede e colaboração",
     "workshop": "Codelume Studio",
     "help": "Ajuda",
-    "appPreview": "Prévia"
+    "appPreview": "Prévia do app",
+    "plans": "Planos e preços"
   },
   "hero": {
     "title": "Um novo papel de parede para seu Mac",
@@ -20,7 +21,7 @@
     "cta": {
       "download": "Baixar Codelume para Mac"
     },
-    "editionNote": "A versão padrão é gratuita. A versão Pro oferece mais recursos.",
+    "editionNote": "A reprodução local é gratuita. Baixe grátis a seleção diária de papéis de parede em vídeo. Para baixar os demais papéis de parede do catálogo, é preciso ter o Pro.",
     "video": {
       "unsupported": "Seu navegador não oferece suporte a vídeos.",
       "select": "Mostrar o papel de parede {{number}}"
@@ -28,36 +29,8 @@
     "wallpaperSubmissionNote": "Papéis de parede selecionados da comunidade podem aparecer na página inicial do site."
   },
   "portfolio": {
-    "badge": "Codelume",
-    "latestProject": "A apresentação pode ser diferente da versão atual.",
-    "featured": {
-      "title": "Codelume",
-      "details": {
-        "industry": {
-          "label": "Gerenciamento de telas",
-          "value": "Reprodução em várias telas, controles individuais, pausa e silenciamento"
-        },
-        "style": {
-          "label": "Papéis de parede locais",
-          "value": "Exportação offline, importação e edição"
-        },
-        "tone": {
-          "label": "Galeria de papéis de parede",
-          "value": "Explore, baixe e envie suas criações"
-        },
-        "format": {
-          "label": "Protetor de tela",
-          "value": "Protetores personalizados e reprodução na tela bloqueada"
-        },
-        "settings": {
-          "label": "Preferências",
-          "value": "Idioma, tema, inicialização e reprodução"
-        }
-      }
-    },
     "systemWallpapers": {
-      "title": "Tipos",
-      "subtitle": "De imagens estáticas a páginas interativas, o Codelume oferece diferentes formas de personalizar sua área de trabalho. Escolha um tipo de papel de parede adequado ao desempenho do seu Mac.",
+      "title": "Tipos de papel de parede",
       "still": {
         "title": "Papéis de parede estáticos",
         "performance": "Melhor desempenho, sem consumo adicional de recursos",
@@ -87,8 +60,7 @@
       }
     },
     "wallpaperModes": {
-      "title": "Modos",
-      "subtitle": "O Codelume oferece dois modos de papel de parede. Compare os dois abaixo.",
+      "title": "Modos de exibição",
       "native": {
         "title": "Papéis de parede do sistema",
         "points": [
@@ -109,7 +81,7 @@
       }
     },
     "community": {
-      "title": "Código aberto",
+      "title": "Projetos e código-fonte",
       "projects": "Projetos do Codelume",
       "closedSource": "Código não publicado",
       "openSourceDescription": "Vamos publicar aos poucos o código-fonte dos projetos do Codelume. Qualquer pessoa poderá revisar o código e enviar sugestões.",
@@ -129,42 +101,19 @@
       }
     },
     "pricing": {
-      "title": "Versões",
-      "subtitle": "As compras do Pro ajudam a financiar o armazenamento de papéis de parede, os serviços de backend e o desenvolvimento do Codelume.",
+      "title": "Preços",
       "standard": {
         "title": "Padrão",
-        "price": "Grátis, sem marcas d’água nem anúncios. Tudo para trocar o papel de parede no dia a dia."
+        "price": "Grátis",
+        "description": "Todos os recursos do app são gratuitos, e os downloads do servidor se limitam aos papéis de parede da lista gratuita."
       },
       "pro": {
         "title": "Pro",
-        "price": "Desbloqueie todos os recursos do Codelume com uma compra única. Consulte o preço na tela de compra."
+        "billing": "Compra única",
+        "description": "Baixe qualquer papel de parede do servidor.",
+        "checkoutNote": "O preço final depende da sua região de cobrança."
       },
-      "groups": {
-        "modes": "Modos de papel de parede",
-        "types": "Tipos de papel de parede",
-        "wallpaperFeatures": "Recursos de papel de parede"
-      },
-      "supported": "Compatível",
-      "partiallySupported": "Parcialmente compatível",
-      "unsupported": "Não compatível",
-      "features": {
-        "displays": "Papéis de parede em várias telas",
-        "lockScreen": "Papéis de parede da tela bloqueada",
-        "playlists": "Listas de reprodução",
-        "library": "Biblioteca local",
-        "download": "Baixar papéis de parede",
-        "import": "Importar papéis de parede",
-        "upload": "Enviar papéis de parede",
-        "export": "Exportar papéis de parede",
-        "menuBar": "Gerenciamento da barra de menus",
-        "metrics": "Métricas do sistema",
-        "frameRate": "Limite de quadros para papéis animados que não são vídeos",
-        "storage": "Gerenciamento de armazenamento",
-        "permissions": "Gerenciamento de permissões"
-      },
-      "mainDisplayOnly": "Apenas a tela principal",
-      "libraryLimit": "Até 20 papéis de parede",
-      "basicTypesOnly": "Apenas imagens e vídeos"
+      "support": "A receita do Pro cobre principalmente a manutenção dos servidores e nos ajuda a continuar desenvolvendo o Codelume."
     }
   },
   "workshop": {

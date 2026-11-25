@@ -1,34 +1,6 @@
 {
-  "badge": "码镜",
-  "latestProject": "不同版本可能存在差异",
-  "featured": {
-    "title": "码镜",
-    "details": {
-      "industry": {
-        "label": "屏幕管理",
-        "value": "多屏播放/单独管理/暂停/静音"
-      },
-      "style": {
-        "label": "本地壁纸",
-        "value": "离线导出/壁纸导入/二次编辑"
-      },
-      "tone": {
-        "label": "壁纸中心",
-        "value": "分类检索/鉴权下载/素材投递"
-      },
-      "format": {
-        "label": "屏保程序",
-        "value": "自定义屏保/锁屏播放"
-      },
-      "settings": {
-        "label": "偏好设置",
-        "value": "语言/主题/开机自启/播放控制"
-      }
-    }
-  },
   "systemWallpapers": {
-    "title": "类型",
-    "subtitle": "从静态图片到交互网页，码镜支持多种壁纸，带来不同的桌面体验，根据你电脑的性能合理选择壁纸类型。",
+    "title": "壁纸类型",
     "still": {
       "title": "静态壁纸",
       "performance": "性能最优，无额外资源消耗",
@@ -58,8 +30,7 @@
     }
   },
   "wallpaperModes": {
-    "title": "模式",
-    "subtitle": "码镜支持两种壁纸模式，下方可以对比它们的区别。",
+    "title": "壁纸模式",
     "native": {
       "title": "系统壁纸",
       "points": [
@@ -80,7 +51,7 @@
     }
   },
   "community": {
-    "title": "开源",
+    "title": "项目与开源状态",
     "projects": "码镜项目",
     "closedSource": "暂未开源",
     "openSourceDescription": "我们会逐步公开码镜各项目的源代码，欢迎大家查阅、监督并提出建议。",
@@ -100,41 +71,18 @@
     }
   },
   "pricing": {
-    "title": "版本",
-    "subtitle": "购买 Pro 可支持壁纸存储、后台服务和码镜的持续开发。",
+    "title": "定价",
     "standard": {
       "title": "普通版",
-      "price": "免费使用，无水印、无广告。日常换壁纸，普通版就够了。"
+      "price": "免费",
+      "description": "软件功能全部免费，只能从服务器下载免费列表中的壁纸。"
     },
     "pro": {
       "title": "Pro",
-      "price": "一次性买断，解锁全部功能，体验完整的码镜。具体价格以购买页面为准。"
+      "billing": "一次性买断",
+      "description": "可下载服务器上的全部壁纸。",
+      "checkoutNote": "最终价格以结账时所在地区为准。"
     },
-    "groups": {
-      "modes": "壁纸模式",
-      "types": "壁纸类型",
-      "wallpaperFeatures": "壁纸功能"
-    },
-    "supported": "支持",
-    "partiallySupported": "部分支持",
-    "unsupported": "不支持",
-    "features": {
-      "displays": "多屏幕壁纸",
-      "lockScreen": "锁屏壁纸",
-      "playlists": "播放列表",
-      "library": "本地壁纸库",
-      "download": "壁纸下载",
-      "import": "壁纸导入",
-      "upload": "壁纸上传",
-      "export": "壁纸导出",
-      "menuBar": "状态栏管理",
-      "metrics": "系统指标",
-      "frameRate": "非视频动态壁纸帧率限制",
-      "storage": "存储管理",
-      "permissions": "权限管理"
-    },
-    "mainDisplayOnly": "仅主屏幕",
-    "libraryLimit": "最多 20 张",
-    "basicTypesOnly": "仅静态和视频"
+    "support": "购买 Pro 的收入主要用于维护后端服务器，也支持我们持续开发码镜。"
   }
 }
