@@ -4,6 +4,7 @@ import { AppPreview } from '@/components/AppPreview'
 import { WallpaperModes } from '@/components/WallpaperModes'
 import { SystemWallpapers } from '@/components/SystemWallpapers'
 import { Community } from '@/components/Community'
+import { proSalesEnabled } from '@/config/proSales'
 import { Pricing } from '@/components/Pricing'
 import { Footer } from '@/components/Footer'
 
@@ -19,7 +20,7 @@ export function HomePage() {
         <WallpaperModes />
         <SystemWallpapers />
         <Community />
-        <Pricing />
+        {proSalesEnabled && <Pricing />}
       </main>
       <Footer />
     </div>

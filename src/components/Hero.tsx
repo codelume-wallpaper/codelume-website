@@ -5,6 +5,7 @@ import { Download, Menu, X } from 'lucide-react'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import { proSalesEnabled } from '@/config/proSales'
 import { AppleLogo } from './AppleLogo'
 import { HeroVideoCarousel } from './HeroVideoCarousel'
 import { LanguageSwitcher } from './LanguageSwitcher'
@@ -76,9 +77,11 @@ export function Hero() {
             <AppleLogo size={18} />
             {t('hero:cta.download')}
           </Link>
-          <p className="mt-2.5 max-w-xl text-xs leading-relaxed text-[#CEC6CD]">
-            {t('hero:editionNote')}
-          </p>
+          {proSalesEnabled && (
+            <p className="mt-2.5 max-w-xl text-xs leading-relaxed text-[#CEC6CD]">
+              {t('hero:editionNote')}
+            </p>
+          )}
           <p className="mt-3 text-right text-xs leading-relaxed text-white/90 [text-shadow:0_1px_3px_#000,0_0_8px_#000] lg:absolute lg:bottom-[60px] lg:right-12 lg:mt-0 lg:max-w-[min(32%,24rem)]">
             <span aria-hidden="true">* </span>{t('hero:wallpaperSubmissionNote')}
           </p>
@@ -140,12 +143,14 @@ export function Hero() {
               >
                 {t('portfolio:community.title')}
               </a>
-              <a
-                href="#pricing"
-                className="text-white hover:text-white/80 font-medium gentle-animation hover:scale-105"
-              >
-                {t('navigation:plans')}
-              </a>
+              {proSalesEnabled && (
+                <a
+                  href="#pricing"
+                  className="text-white hover:text-white/80 font-medium gentle-animation hover:scale-105"
+                >
+                  {t('navigation:plans')}
+                </a>
+              )}
             </div>
 
             {/* 右侧 - 语言切换 + 下载按钮 + 移动菜单 */}
@@ -234,13 +239,15 @@ export function Hero() {
               >
                 {t('portfolio:community.title')}
               </a>
-              <a
-                href="#pricing"
-                className="mobile-menu-link px-4 py-3 hover:text-white/80 hover:bg-white/10 rounded-lg gentle-animation font-medium text-lg active:bg-white/20"
-                onClick={() => setIsMobileMenuOpen(false)}
-              >
-                {t('navigation:plans')}
-              </a>
+              {proSalesEnabled && (
+                <a
+                  href="#pricing"
+                  className="mobile-menu-link px-4 py-3 hover:text-white/80 hover:bg-white/10 rounded-lg gentle-animation font-medium text-lg active:bg-white/20"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  {t('navigation:plans')}
+                </a>
+              )}
             </div>
           </div>
         </div>
