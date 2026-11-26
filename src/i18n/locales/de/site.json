@@ -84,21 +84,17 @@
       "title": "Projekte und Quellcode",
       "projects": "Codelume-Projekte",
       "closedSource": "Quellcode unveröffentlicht",
-      "openSourceDescription": "Wir veröffentlichen den Quellcode der Codelume-Projekte nach und nach. Alle sind eingeladen, den Code zu prüfen und Rückmeldung zu geben.",
+      "openSourceDescription": "Der Quellcode der Codelume-Website ist auf GitHub verfügbar. Dort kannst du den Code einsehen, Probleme melden und Verbesserungen vorschlagen.",
       "sourceStatus": "Quellcode-Status",
       "sourceAddress": "Quellcode-Repository",
       "sourceUnavailable": "Noch nicht veröffentlicht",
       "descriptions": {
         "Codelume": "Die Codelume-Wallpaper-App für macOS.",
-        "CodelumeBundle": "Eine Swift-Bibliothek zum Lesen, Bearbeiten und Prüfen von Wallpaper-Paketen.",
-        "CodelumeStudio": "Ein Studio zum Erstellen und Bearbeiten von Codelume-Wallpapern.",
-        "CodelumeSaver": "Ein macOS-Bildschirmschoner für Videos und Codelume-Wallpaper-Pakete.",
-        "CodelumeEngine": "Ein geplantes Engine-Projekt zum Rendern und Abspielen von Wallpapern.",
-        "CodelumeShared": "Gemeinsame Swift-Komponenten für Codelume-Projekte.",
         "codelume-backend": "Konto-, Wallpaper-Bibliotheks- und Dateidienste für Codelume.",
         "codelume-skills": "Skills für Coding-Agenten in Codelume-Projekten.",
         "codelume-website": "Die offizielle Codelume-Website."
-      }
+      },
+      "openSource": "Quelloffen"
     },
     "pricing": {
       "title": "Preise",

@@ -1,15 +1,10 @@
 import { useTranslation } from 'react-i18next'
 
 const projects = [
-  'Codelume',
-  'CodelumeBundle',
-  'CodelumeStudio',
-  'CodelumeSaver',
-  'CodelumeEngine',
-  'CodelumeShared',
-  'codelume-backend',
-  'codelume-skills',
-  'codelume-website',
+  { name: 'Codelume' },
+  { name: 'codelume-backend' },
+  { name: 'codelume-skills' },
+  { name: 'codelume-website', url: 'https://github.com/codelume-wallpaper/codelume-website' },
 ]
 
 export function Community() {
@@ -28,7 +23,7 @@ export function Community() {
 
         <h3 className="mb-3 mt-8 text-base font-semibold">{t('community.projects')}</h3>
         <ul role="list" className="grid gap-3 md:grid-cols-2">
-          {projects.map((name, index) => (
+          {projects.map(({ name, url }, index) => (
             <li key={name} className={`min-w-0 rounded-2xl border p-5 shadow-sm sm:p-6 ${index % 2 === 0 ? 'card-surface-lavender' : 'card-surface-peach'}`}>
               <h4 className="break-words text-base font-semibold">{name}</h4>
               <p className="mt-1 text-sm leading-relaxed text-muted-foreground">
@@ -38,11 +33,17 @@ export function Community() {
                 <dt className="text-muted-foreground">{t('community.sourceStatus')}</dt>
                 <dd>
                   <span className="inline-block rounded-full bg-muted px-2.5 py-0.5 text-xs text-muted-foreground">
-                    {t('community.closedSource')}
+                    {url ? `${t('community.openSource')} · Apache-2.0` : t('community.closedSource')}
                   </span>
                 </dd>
                 <dt className="text-muted-foreground">{t('community.sourceAddress')}</dt>
-                <dd className="text-muted-foreground">{t('community.sourceUnavailable')}</dd>
+                <dd className="text-muted-foreground">
+                  {url ? (
+                    <a href={url} className="text-foreground underline underline-offset-4">
+                      GitHub
+                    </a>
+                  ) : t('community.sourceUnavailable')}
+                </dd>
               </dl>
             </li>
           ))}
