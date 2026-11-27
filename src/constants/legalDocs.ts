@@ -22,6 +22,8 @@ export const REFUND_POLICY_VERSION = '2026.11.13'
 
 export const DIRECT_LEGAL_DOC_VERSION = '2026.11.13'
 
+export const UGC_POLICY_VERSION = '2026.11.28'
+
 export const ACCOUNT_POLICY_VERSION = '2026.11.28'
 
 export function defaultLegalDocVersion(key: LegalDocKey): string {
@@ -31,7 +33,7 @@ export function defaultLegalDocVersion(key: LegalDocKey): string {
 
 export function legalDocPath(docKey: LegalDocKey): string {
   if (docKey === 'refund') return '/legal/refund'
-  const version = docKey === 'ugc' ? DIRECT_LEGAL_DOC_VERSION : ACCOUNT_POLICY_VERSION
+  const version = docKey === 'ugc' ? UGC_POLICY_VERSION : ACCOUNT_POLICY_VERSION
   return `/legal/${docKey}/${version}`
 }
 
