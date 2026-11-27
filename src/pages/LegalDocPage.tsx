@@ -8,8 +8,7 @@ import {
   resolveLegalDocKey,
   legalDocPath,
   LEGAL_DOC_KEYS,
-  LEGAL_DOC_VERSION,
-  REFUND_POLICY_VERSION,
+  defaultLegalDocVersion,
   resolveLegalContentLocale,
 } from '@/constants/legalDocs'
 
@@ -40,7 +39,7 @@ export function LegalDocPage() {
           </Link>
           <div className="flex flex-wrap items-center justify-end gap-3 sm:gap-4">
             <span className="text-xs text-muted-foreground">
-              {t('legal:versionLabel')} {docKey === 'refund' ? REFUND_POLICY_VERSION : version ?? LEGAL_DOC_VERSION}
+              {t('legal:versionLabel')} {version ?? defaultLegalDocVersion(docKey)}
             </span>
             <LanguageSwitcher variant="onSurface" />
             <Link
