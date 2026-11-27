@@ -24,16 +24,19 @@ export const DIRECT_LEGAL_DOC_VERSION = '2026.11.13'
 
 export const UGC_POLICY_VERSION = '2026.11.28'
 
+export const TERMS_POLICY_VERSION = '2026.11.28.1'
+
 export const ACCOUNT_POLICY_VERSION = '2026.11.28'
 
 export function defaultLegalDocVersion(key: LegalDocKey): string {
-  if (key === 'terms' || key === 'privacy') return ACCOUNT_POLICY_VERSION
+  if (key === 'terms') return TERMS_POLICY_VERSION
+  if (key === 'privacy') return ACCOUNT_POLICY_VERSION
   return key === 'refund' ? REFUND_POLICY_VERSION : LEGAL_DOC_VERSION
 }
 
 export function legalDocPath(docKey: LegalDocKey): string {
   if (docKey === 'refund') return '/legal/refund'
-  const version = docKey === 'ugc' ? UGC_POLICY_VERSION : ACCOUNT_POLICY_VERSION
+  const version = docKey === 'ugc' ? UGC_POLICY_VERSION : defaultLegalDocVersion(docKey)
   return `/legal/${docKey}/${version}`
 }
 
